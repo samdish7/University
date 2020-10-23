@@ -1,0 +1,5 @@
+# Anything not in code
+*.pdf
+*.docx
+*.zip
+.DS_STORE
