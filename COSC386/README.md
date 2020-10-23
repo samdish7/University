@@ -8,6 +8,13 @@ Instructor ~> Dr. Yaping Jing
 
 Year ~> Spring 2020
 
+## Languages Used
+	
+	- PHP
+	- HTML
+	- CSS
+	- MYSQL
+
 ## Overview
 
-Using various languages such as PHP, MYSQL, and HTML to create a database.  Our database was on the Chesapeake Bay Wildlife.
+Learned about how databases are used in the real world, the basic operations of navigating the database and also how to work around MYSQL to display the output desired.  Main project was to implement out own database and make a webpage that used the concepts that were learned in class.  Our database was about the Cheaspeake Bay Wildlife.
