@@ -8,8 +8,8 @@ Year ~> Spring 2020
 
 ## Languages Used;
 
-	- **C**
-	- **Shell**
+	- C
+	- Shell
 
 ## Overview
 
