@@ -1,0 +1,203 @@
+Sam Disharoon
+
+SAMPLE OUTPUT
+sam@sam-VirtualBox:~/Documents/COSC320/Labs/Lab2$ ./main
+WE FINNA QUICKSORT THIS ARRAY:
+4
+6
+3
+5
+7
+============
+finished at Wed Sep 11 23:36:44 2019
+elapsed time: 4.98e-07s
+3
+4
+5
+6
+7
+
+
+Now for a medium sized array randomly generated:
+finished at Wed Sep 11 23:36:44 2019
+elapsed time: 0.00152974s
+
+Now for a huge array in descending order:
+finished at Wed Sep 11 23:36:59 2019
+elapsed time: 14.4349s
+
+Now that we have the time it takes for worst case, lets do best case: 
+finished at Wed Sep 11 23:37:13 2019
+elapsed time: 14.4177s
+====================================================================================main.cpp
+
+//Sam Disharoon 
+//Lab 2
+//This lab will demostrate the quicksort and mergesort methods and will test their times on different sized/sorted arrays.
+#include<chrono>
+#include<iostream>
+#include<stdio.h>
+#include<time.h>
+#include"qmsort.h"
+int main(){
+	int small1[]={4,6,3,5,7};
+	int small2[]={89,9,0,-2,4};
+	int i=0,num=100000;
+	std::cout<<"WE FINNA QUICKSORT THIS ARRAY:\n";
+	for(i=0;i<5;i++){
+	std::cout<<small1[i]<<std::endl;
+	}
+	std::cout<<"============\n";
+	testSortQ(quickSort,small1,0,4);
+	for(i=0;i<5;i++){
+	std::cout<<small1[i]<<std::endl;
+	}
+	std::cout<<"\n\nNow for a medium sized array randomly generated:\n";
+	int med1[10000];
+	for(i=0;i<10000;i++){
+	med1[i]=rand() % 1000+1;
+	}
+	testSortQ(quickSort,med1,0,9999);
+	/*std::cout<<"\n\n";
+	for(i=0;i<10000;i++){
+	std::cout<<med1[i]<<" ";
+	}*///This is the output of the medium array to show it is sorted
+	std::cout<<"\nNow for a huge array in descending order:\n";
+	int big1[100000];
+	for(i=0;i<100000;i++){
+	big1[i]=num;
+	num--;}
+	testSortQ(quickSort,big1,0,99999);
+	std::cout<<"\nNow that we have the time it takes for worst case, lets do best case: \n";
+	int big2[100000];
+	for(i=0;i<100000;i++){
+	big2[i]=i;}
+	testSortQ(quickSort,big2,0,99999);
+/*	for(i=0;i<100000;i++){
+	std::cout<<big1[i]<<" ";
+	}
+*/	//This is the output of the big array to show it is sorted
+	/*std::cout<<"\n============\nWE FINNA MERGESORT THIS ARRAY:\n";
+	for(i=0;i<5;i++){
+	std::cout<<small2[i]<<std::endl;
+	}
+	mergeSort(small2,0,4);
+	std::cout<<"============\n";
+	for(i=0;i<5;i++){
+	std::cout<<small2[i]<<std::endl;
+	}*/
+	return 0;
+}
+====================================================================================qmsort.h
+
+//Sam Disharoon
+//qmsort.h
+#ifndef QMSORT_H
+#define QMSORT_H
+
+void quickSort(int*,int,int);//quicksort function prototype
+int partition(int*,int,int);//partition function prototype
+void swap(int&,int&);//swap function prototype
+bool isSorted(int*,int);//isSorted function prototype
+int* mergeSort(int*,int,int);//MergeSort function prototype
+int* Merge(int*,int,int*,int);//Merge function prototype
+void testSortQ(void(*sort)(int*,int,int),int*,int,int);//testsort for QS
+int* testSortM(void(*sort)(int*,int,int),int*,int,int);//testsort for MS
+#endif
+====================================================================================qmsort.cpp
+
+//Sam Disharoon
+//qmsort.cpp
+#include"qmsort.h"
+#include<iostream>
+#include<chrono>
+void swap(int &val1,int &val2){
+        int tmp=val1;
+        val1=val2;
+        val2=tmp;
+}
+void quickSort(int *arr,int s,int e){
+        if(s<e){
+        int p=partition(arr,s,e);
+        quickSort(arr,s,p-1);
+        quickSort(arr,p+1,e);
+        }
+}
+int partition(int *arr,int s,int e){
+        int pivot=arr[e];
+        while(s<e){
+        while(arr[s]<pivot){
+        s++;}
+        while(arr[e]>pivot){
+        e--;}
+        if(arr[s]==arr[e])
+                s++;
+        else if(s<e){
+        swap(arr[s],arr[e]);
+        }
+        }
+        return e;
+}
+//To test if it is sorted
+bool isSorted(int *arr,int n){
+        for(int i=0;i<n-1;i++){
+        if (arr[i]<=arr[i+1]){i++;}
+        else{return false;}
+        }
+        return true;
+}
+
+//Test Sort function to display the time it takes mergesort to sort
+/*int* testSortM(void (*sort)(int*,int,int),int *arr,int n1,int n2){
+        auto start=std::chrono::system_clock::now();
+        sort(arr,n1,n2);
+        auto end=std::chrono::system_clock::now();
+        std::chrono::duration<double> elapsed_seconds=end-start;
+        std::time_t end_time=std::chrono::system_clock::to_time_t(end);
+        std::cout<<"finished at "<<std::ctime(&end_time);
+        std::cout <<"elapsed time: "<<elapsed_seconds.count()<<"s\n";
+}*///not sure, but it keeps telling me I have an invalid conversion when i use this
+
+//Test Sort function to display the time it takes quickSort to sort
+void testSortQ(void (*sort)(int*,int,int),int *arr,int n1,int n2){
+        auto start=std::chrono::system_clock::now();
+        sort(arr,n1,n2);
+        auto end=std::chrono::system_clock::now();
+        std::chrono::duration<double> elapsed_seconds=end-start;
+        std::time_t end_time=std::chrono::system_clock::to_time_t(end);
+        std::cout<<"finished at "<<std::ctime(&end_time);
+        std::cout <<"elapsed time: "<<elapsed_seconds.count()<<"s\n";
+
+}
+int* mergeSort(int* Arr,int s,int e){
+	if(s<e){
+		int mid=(s+e)/2;
+		int* L1=mergeSort(Arr,s,mid);
+		int* L2=mergeSort(Arr,mid,e);
+		return Merge(L1,mid-s,L2,e-mid);
+	}
+}
+int* Merge(int* L1,int s1,int* L2,int s2){
+	int i,j,k=0;
+	int A[s1+s2];
+	while(j<s1 && k<s2){
+	if (L1[j]>L2[k])
+	{A[i]=L2[k];
+		k++;}
+	else
+	{A[i]=L1[j];
+		j++;}
+	i++;
+	}
+	if(k<s2){
+	for(;k<s2;k++)
+	{A[i]=L2[k];
+		i++;}
+	}
+	else{
+	for(;j<s1;j++)
+	{A[i]=L1[j];
+		i++;}
+	}
+	return A;
+}

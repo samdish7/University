@@ -1,0 +1,4 @@
+I couldn't get your hash function to work, so I created my own. I will be at your office hours to get help on that
+a) My approach to the problem was to first create the hash for an int. So i made hashashes for ints 0-19. Then, I used the ASCII code of strings, add them up into a sum, and sent that number to the hash function. Once that number came back, I converted it into hex.
+b) My first string conversion takes the ASCII code of the string, calls the hash function to make a large number, and takes that number and converts it to hex.  My second string conversion does the same as the first, but takes the ascii and divides it by two before add it to the sum.
+c) it could be improved by making the string conversions a little more complex, and not as easy to crack.  It is kind of a lazy hash, but it works. So I guess I can't complain.

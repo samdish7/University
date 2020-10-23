@@ -1,0 +1,4 @@
+										Aug 31st
+	* Went over Big O definitions
+	* Written examples in notes
+	* 
