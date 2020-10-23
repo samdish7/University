@@ -1,0 +1,355 @@
+					Sample Output
+These are the hardcoded examples:
+*************************
+Employee: Sam Disharoon
+Pay Rate: $15.75
+Total pay this week: $630
+*************************
+Employee: Robert Williams
+Pay Rate: $23.45
+Total pay this week: $938
+*************************
+Employee: Kyrie Irving
+Pay Rate: $28.65
+Total pay this week: $1146
+*************************
+The number of employees in this list are: 3
+
+
+Adding employees from a file:
+*************************
+Employee: Sam Disharoon
+Pay Rate: $15.75
+Total pay this week: $630
+*************************
+Employee: Robert Williams
+Pay Rate: $23.45
+Total pay this week: $938
+*************************
+Employee: Kyrie Irving
+Pay Rate: $28.65
+Total pay this week: $1146
+*************************
+Employee: Joe Eugene
+Pay Rate: $16.75
+Total pay this week: $670
+*************************
+Employee: Bob Davis
+Pay Rate: $14.86
+Total pay this week: $594.4
+*************************
+Employee: John Doe
+Pay Rate: $12.32
+Total pay this week: $492.8
+*************************
+The number of employees in thsi list are: 6
+
+
+
+This shows off the copy CTOR:
+*************************
+Employee: Sam Disharoon
+Pay Rate: $15.75
+Total pay this week: $630
+*************************
+Employee: Robert Williams
+Pay Rate: $23.45
+Total pay this week: $938
+*************************
+Employee: Kyrie Irving
+Pay Rate: $28.65
+Total pay this week: $1146
+*************************
+The number of employees in this list are: 3
+
+
+What position would you like to insert a new employee in the first list? The number of employees in this list is 6
+10
+This position doesn't exist! Please pick a postion between 1 and 6
+2
+*************************
+Employee: Sam Disharoon
+Pay Rate: $15.75
+Total pay this week: $630
+*************************
+Employee: Robert Williams
+Pay Rate: $23.45
+Total pay this week: $938
+*************************
+Employee: Kyrie Irving
+Pay Rate: $28.65
+Total pay this week: $1146
+*************************
+Employee: Joe Eugene
+Pay Rate: $16.75
+Total pay this week: $670
+*************************
+Employee: Bob Davis
+Pay Rate: $14.86
+Total pay this week: $594.4
+*************************
+Employee: John Doe
+Pay Rate: $12.32
+Total pay this week: $492.8
+*************************
+&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&					Code
+main.cpp
+
+//Main file
+//Sam Disharoon
+
+#include <fstream>
+#include <iostream>
+#include <string>
+
+#include "payroll.h"
+#include "payrolllist.h"
+
+int main (){
+        PayRollList emp;
+        PayRoll* bro = new PayRoll;
+        std::string fName;
+        std::string lName;
+        std::string Name;
+        double Rate;
+        double Hours;
+        int pos;
+        bool a=false;
+        std::ifstream file ("emp.txt");
+
+        std::cout << "These are the hardcoded examples:\n";
+        emp.insert("Sam Disharoon",15.75,40);
+        emp.insert("Robert Williams",23.45,40);
+        emp.insert("Kyrie Irving",28.65,40);
+        emp.printPayChecks();
+        std::cout <<"The number of employees in this list are: " <<emp.length() << "\n";
+
+        PayRollList emp2 = emp;
+        std::cout << "\n\nAdding employees from a file:\n";
+        if (file.is_open()){
+        while (file>>fName>>lName>>Rate>>Hours){
+        Name=fName+" "+lName;
+        emp.insert(Name,Rate,Hours);
+        }
+        file.close();
+        }
+        else std::cout << "Unable to read file\n.";
+        emp.printPayChecks();
+        std::cout<<"The number of employees in thsi list are: "<<emp.length() << "\n";
+        std::cout<<"\n\n\nThis shows off the copy CTOR:\n";
+        emp2.printPayChecks();
+        std::cout<<"The number of employees in this list are: "<<emp2.length();
+std::cout<<"\n\n\n";
+
+        std::cout<<"What position would you like to insert a new employee in the first list? The number of employees in this list is "<<emp.length()<<"\n";
+        std::cin>>pos;
+        if(pos>emp.length()||pos<=1){
+        std::cout<<"This position doesn't exist! Please pick a postion between 1 and "<<emp.length()<<"\n";
+        std::cin>>pos;
+        }
+        bro->setName("Dick Chaney"); bro->setRate(19.80); bro->setHours(40);
+        emp.printPayChecks();
+
+
+return 0;
+}
+&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&payroll.h
+
+//PayRoll header file
+//Sam Disharoon
+#ifndef PAYROLL_H
+#define PAYROLL_H
+
+#include <string>
+class PayRoll{
+        private:
+        std::string name;
+        double rate;
+        double hours;
+
+        public:
+        PayRoll*  makeEmp(std::string, double, double);
+        double getTotal();
+        double getRate();
+        double getHours();
+        std::string getName();
+        void setRate(double);
+        void setName(std::string);
+        void setHours(double);
+};
+
+
+
+#endif
+&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&payroll.cpp
+
+//PayRoll cpp file
+//Sam Disharoon
+
+#include "payroll.h"
+
+PayRoll* PayRoll::makeEmp(std::string n, double r, double h){
+        PayRoll* a = new PayRoll;
+
+        a->setName(n);
+        a->setRate(r);
+        a->setHours(h);
+
+        return a;
+}
+void PayRoll::setName(std::string n){
+        name=n;
+}
+std::string PayRoll::getName(){
+        return name;
+}
+void PayRoll::setRate(double r){
+        rate=r;
+}
+double PayRoll::getRate(){
+        return rate;
+}
+void PayRoll::setHours(double h){
+        hours=h;
+}
+double PayRoll::getHours(){
+        return hours;
+}
+double PayRoll::getTotal(){
+        return (rate*hours);
+}
+&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&payrolllist.h
+
+//PayRollList header file
+//Sam Disharoon
+
+#ifndef PAYROLLLIST_H
+#define PAYROLLLIST_H
+
+#include <string>
+#include "payroll.h"
+class PayRollList{
+        private:
+        struct ListNode {
+        PayRoll p;
+        ListNode* next;
+        };
+
+        ListNode* head;
+
+        public:
+        PayRollList();
+        ~PayRollList();
+        PayRollList(const PayRollList&);
+
+
+        int length();
+        PayRoll& operator[](int);
+        void remove(int);
+        void assign(int, PayRoll);
+        void insert(std::string, double, double);
+        void insert(PayRoll);
+        void insert(int, PayRoll);
+        void printPayChecks();
+
+};
+
+#endif
+&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&payrolllist.cpp
+
+//PayRollList cpp file
+//Sam Disharoon
+
+#include "payrolllist.h"
+#include "payroll.h"
+#include <iostream>
+PayRollList::PayRollList(){
+        head = nullptr;
+}
+PayRollList::PayRollList(const PayRollList& other){
+        ListNode* cursor=other.head;
+        while(cursor){
+        insert(cursor->p);
+        cursor=cursor->next;
+
+        }
+}
+void PayRollList::insert(std::string n, double r, double h){
+        ListNode* cursor=head;
+
+        ListNode* newNode=new ListNode;
+        newNode->next = nullptr;
+
+        newNode->p.setName(n);
+        newNode->p.setRate(r);
+        newNode->p.setHours(h);
+
+        if(head==nullptr){
+        head=newNode;
+        return;
+        }
+        while(cursor->next){
+        cursor=cursor->next;
+        }
+        cursor->next=newNode;
+}
+void PayRollList::insert(PayRoll pay){
+        insert(pay.getName(),pay.getRate(),pay.getHours());
+}
+void PayRollList::printPayChecks(){
+        ListNode* cursor=head;
+        std::cout << "*************************\n";
+        if(cursor == nullptr){
+        std::cout << "HEAD IS NULL!\n";
+}
+        while(cursor){
+        std::cout<<"Employee: "<<cursor->p.getName()<<"\n"<<"Pay Rate: $"<<cursor->p.getRate()<<"\n"<<"Total pay this week: $"<<cursor->p.getTotal()<<"\n*************************\n" ;
+        cursor=cursor->next;
+        }
+
+}
+int PayRollList::length(){
+        ListNode* cursor=head;
+        int count=0;
+
+        while(cursor){
+        cursor=cursor->next;
+        count++;
+        }
+        return count;
+}
+PayRoll& PayRollList::operator[](int index){
+        ListNode* cursor=head;
+        for(int i=0; i<index;i++){
+        if(cursor){
+        cursor=cursor->next;
+        }
+        }
+        if(cursor==nullptr||index<0){
+        }
+        return cursor->p;
+}
+void PayRollList::remove(int x){
+        ListNode* cursor=head;
+        int count = 0;
+        while(cursor){
+
+        }
+
+}
+void PayRollList::assign(int, PayRoll){
+
+}
+void PayRollList::insert(int x, PayRoll pay){
+        //insert(pay[x]); DOESN'T WORK, NOT SURE WHY
+}
+
+PayRollList::~PayRollList(){
+        ListNode* cursor = head;
+        while(cursor){
+        head = cursor->next;
+        delete cursor;
+        cursor = head;
+        }
+}
+

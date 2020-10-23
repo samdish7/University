@@ -1,0 +1,189 @@
+					Code for Project-3
+driver.cpp
+#include <iostream>
+#include <string>
+#include "SUList.h"
+#include "SUList.cpp"
+#include "SUQueue.h"
+#include "SUStack.h"
+int main(){
+        SUList<int> s1;
+        SUList<int> s2;
+        s1.getFront();
+        s1.getBack();
+        s1.putBack(1);
+        s1.putBack(2);
+        s1.putBack(3);
+        s1.putBack(4);
+        s1.putBack(5);
+        s1.putBack(6);
+        s1.putBack(7);
+        s1.putBack(8);
+        s1.putFront(122);
+        s1.print();
+        std::cout<<"I GOT BACK "<<s1.getBack()<<"\n====\n";
+        std::cout<<"I GOT BACK "<<s1.getBack()<<"\n====\n";
+        std::cout<<"I GOT Front "<<s1.getFront()<<"\n====\n";
+        std::cout<<"I GOT Front "<<s1.getFront()<<"\n====\n";
+        s1.print();
+        if(s1.contains(2)){std::cout<<"FOUND!\n";}
+        else {std::cout<<"HELL NAW!\n";}
+return 0;
+}
+========================================================================================SUList.h
+#ifndef SULIST_H
+#define SULIST_H
+template<class DataType>
+class SUList{
+        private:
+        struct ListNode{
+        DataType data;
+        ListNode* next;
+        };
+        ListNode* head;
+        ListNode* tail;
+
+        public:
+        SUList();
+//      RULE OF 3
+        SUList(const SUList&);
+        ~SUList();
+        SUList<DataType>& operator=(const SUList<DataType>&);
+//      Functions
+        DataType getFront();
+        DataType getBack();
+        void putFront(const DataType&);
+        void putBack(const DataType&);
+        int size()const;
+        bool contains(const DataType&);
+        void print();
+};
+#endif
+========================================================================================SUList.cpp
+#include<iostream>
+#include"SUList.h"
+template<class DataType>
+SUList<DataType>::SUList(){head=nullptr;tail=nullptr;}
+template<class DataType>
+SUList<DataType>::SUList(const SUList& other){
+        head=nullptr;
+        ListNode* cursor=other.head;
+        while(cursor){
+        putBack(cursor->data);
+        cursor=cursor->next;
+        }
+}
+template<class DataType>
+SUList<DataType>::~SUList(){
+        ListNode* cursor=head;
+        while(cursor){
+        cursor=cursor->next;
+        delete head;
+        head=cursor;
+        }
+}
+template<class DataType>
+SUList<DataType>& SUList<DataType>::operator=(const SUList<DataType>& other){
+        ListNode* cursor=head;
+        while(cursor){
+        cursor=cursor->next;
+        delete head;
+        head=cursor;
+        }
+        cursor=other.head;
+        while(cursor){
+        putBack(cursor->data);
+        cursor=cursor->next;
+        }
+        return *this;
+}
+template<class DataType>
+DataType SUList<DataType>::getFront(){
+        if(head){
+        ListNode* cursor=head;
+        DataType tmp=head->data;
+        head=head->next;
+        delete cursor;
+        return tmp;
+        }
+        else{std::cout<<"Nothing to return\n";}
+}
+template<class DataType>
+DataType SUList<DataType>::getBack(){
+        if(head){
+        DataType tmp;
+        ListNode* cursor=head;
+        ListNode* cursor2=head;
+        tmp=tail->data;
+        while(cursor->next){
+        cursor2=cursor;
+        cursor=cursor->next;
+        }
+        delete cursor;
+        tail=cursor2;
+        tail->next=nullptr;
+        return tmp;
+        }
+        else{std::cout<<"Nothing to return!\n";}
+
+}
+template<class DataType>
+void SUList<DataType>::putFront(const DataType& x){
+        ListNode* newNode=new ListNode;
+        ListNode* cursor=head;
+        newNode->next=nullptr;
+        newNode->data=x;
+        if(!cursor){
+        head=newNode;
+        tail=newNode;
+        return;
+        }
+        newNode->next=head;
+        head=newNode;
+}
+template<class DataType>
+void SUList<DataType>::putBack(const DataType& x){
+        ListNode* newNode=new ListNode;
+        ListNode* cursor=head;
+        newNode->next=nullptr;
+        newNode->data=x;
+        if(!cursor){
+        head=newNode;
+        tail=newNode;
+        return;
+        }
+        tail->next=newNode;
+        tail=newNode;
+}
+template<class DataType>
+int SUList<DataType>::size()const{
+        ListNode* cursor=head;
+        int count=0;
+        while(cursor){
+        count++;
+        cursor=cursor->next;
+        }
+        return count;
+}
+template<class DataType>
+bool SUList<DataType>::contains(const DataType& x){
+        ListNode *cursor=head;
+        while(cursor){
+        if(cursor->data==x){
+        return true;}
+        else{
+        cursor=cursor->next;
+        }
+        return false;
+        }
+}
+template<class DataType>
+void SUList<DataType>::print(){
+        ListNode* cursor=head;
+        while(cursor)
+        {std::cout<<cursor->data<<"\n";
+        cursor=cursor->next;
+        }
+
+}
+

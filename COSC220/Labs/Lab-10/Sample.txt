@@ -1,0 +1,284 @@
+					Sample Output
+Now creating a stack of Ints...
+Now pushing some numbers in the stack...
+The stack is currently:
+4
+3
+1
+Now to pop a value off of the stack...
+Now to peek at the current top value of the stack...
+3
+Now to print the entire stack...
+3
+1
+
+
+Pushing strings into a stack of strings...
+The contents of the string stack are:
+~~~
+Stuff
+Bob
+Now to pop an item off...
+Let us peek onto the stack to see what is on top now...
+Stuff
+The stack now contains:
+Stuff
+Bob
+
+
+Pushing PayRoll objects into a stack of PayRolls...
+This stack contains:
+
+Name: YAAAAAAAA
+Pay rate: $2.32
+Hours worked: 40
+Total pay: $92.8
+
+
+Name: Sam
+Pay rate: $7.5
+Hours worked: 40
+Total pay: $300
+
+
+Name: Bob
+Pay rate: $4.5
+Hours worked: 40
+Total pay: $180
+
+Popping...
+We shall peek again...
+
+Name: Sam
+Pay rate: $7.5
+Hours worked: 40
+Total pay: $300
+
+Now to see the entire stack...
+
+Name: Sam
+Pay rate: $7.5
+Hours worked: 40
+Total pay: $300
+
+
+Name: Bob
+Pay rate: $4.5
+Hours worked: 40
+Total pay: $180
+====================================================================================					Code
+main.cpp
+#include<iostream>
+  #include<string>
+  #include "payroll.h"
+  #include "mystack.h"
+  int main(){
+          MyStack<int> intStack;
+          MyStack<std::string> strStack;
+          std::cout<<"Now creating a stack of Ints...\n";
+          std::cout<<"Now pushing some numbers in the stack...\n";
+          intStack.push(1);
+          intStack.push(3);
+          intStack.push(4);
+          std::cout<<"The stack is currently:\n";
+          intStack.print();
+          std::cout<<"Now to pop a value off of the stack...\n";
+          intStack.pop();
+          std::cout<<"Now to peek at the current top value of the stack...\n";
+          std::cout<<intStack.peek();
+          std::cout<<"\nNow to print the entire stack...\n";
+          intStack.print();
+  //      MyStack<int> intStack2=intStack; Doesn't work, No idea why
+  //      intStack2.print();      
+  //      MyStack<int> intStack3;Also doesn't work, no idea why
+  //      intStack3=intStack;
+          std::cout<<"\n\nPushing strings into a stack of strings...\n";
+          strStack.push("Bob");
+          strStack.push("Stuff");
+          strStack.push("~~~");
+          std::cout<<"The contents of the string stack are:\n";
+          strStack.print();
+          std::cout<<"Now to pop an item off...\n";
+          strStack.pop();
+          std::cout<<"Let us peek onto the stack to see what is on top now...\n"<<strStack.peek()<<"\nThe stack now contains:\n"; 
+         strStack.print();
+         std::cout<<"\n\nPushing PayRoll objects into a stack of PayRolls...\n";
+          PayRoll pay={"Bob",4.50,40};
+          PayRoll pay2={"Sam",7.50,40};
+          PayRoll pay3={"YAAAAAAAA",2.32,40};
+          MyStack<PayRoll> payStack;
+          payStack.push(pay);
+          payStack.push(pay2);
+          payStack.push(pay3);
+          std::cout<<"This stack contains:\n";
+          payStack.print();
+          std::cout<<"Popping...\n";
+          payStack.pop();
+          std::cout<<"We shall peek again...\n"<<payStack.peek()<<"\nNow to see the entire stack...\n";
+          payStack.print();
+  
+  
+  return 0;
+  }
+========================================================================================payroll.h
+#ifndef PAYROLL_H
+#define PAYROLL_H
+#include <string>
+class PayRoll{
+        private:
+        std::string name;
+        double rate;
+        double hours;
+
+        public:
+        PayRoll(){name="N/A";rate=-1;hours=0;}
+        PayRoll(std::string,double,double);
+
+        void setName(std::string);
+        void setRate(double);
+        void setHours(double);
+        std::string getName();
+        double getRate();
+        double getHours();
+        double getTotal();
+
+        friend std::ostream& operator<<(std::ostream&, const PayRoll&);
+};
+
+#endif
+========================================================================================payroll.cpp
+#include <string>
+#include "payroll.h"
+#include <iostream>
+PayRoll::PayRoll(std::string n,double r,double h){
+        name=n;rate=r;hours=h;
+}
+void PayRoll::setName(std::string n){name=n;}
+void PayRoll::setRate(double r){rate=r;}
+void PayRoll::setHours(double h){hours=h;}
+std::string PayRoll::getName(){return name;}
+double PayRoll::getRate(){return rate;}
+double PayRoll::getHours(){return hours;}
+double PayRoll::getTotal(){return (rate * hours);}
+std::ostream& operator<<(std::ostream& o, const PayRoll& pay){
+        std::cout<<"\nName: "<<pay.name;
+        std::cout<<"\nPay rate: $"<<pay.rate;
+        std::cout<<"\nHours worked: "<<pay.hours;
+        std::cout<<"\nTotal pay: $"<<pay.hours*pay.rate<<"\n";
+return o;}
+========================================================================================
+mystack.h
+#ifndef MYSTACK_H
+#define MYSTACK_H
+#include "payroll.h"
+template<class T>
+class MyStack{
+        private:
+        struct Node{
+                T data;
+                Node* next;
+        };
+        Node* head;
+        void insert(T);
+
+        public:
+        MyStack(){head=nullptr;}
+        ~MyStack();
+        MyStack(const MyStack&);
+        MyStack operator=(const MyStack&);
+
+
+        void push(T);
+        T pop();
+        T peek();
+        void print();
+};
+#include "mystack.cpp"
+#endif
+========================================================================================
+mystack.cpp
+#include<string>
+#include<iostream>
+#include"mystack.h"
+#include"payroll.h"
+template<class T>
+MyStack<T>::MyStack(const MyStack& other){
+        head=nullptr;
+        Node* cursor=other.head;
+        while(cursor){
+        insert(cursor->data);
+        cursor=cursor->next;
+        }
+}
+template<class T>
+MyStack<T> MyStack<T>::operator=(const MyStack& other){
+        Node* cursor=head;
+        while(cursor){
+        head=head->next;
+        delete cursor;
+        cursor=head;
+        }
+        cursor=other.head;
+        while(cursor){
+        insert(cursor->data);
+        cursor=cursor->next;
+        }
+        return other;
+}
+template<class T>
+MyStack<T>::~MyStack(){
+        Node* cursor=head;
+        while(cursor){
+        head=cursor->next;
+        delete cursor;
+        cursor=head;
+        }
+}
+template<class T>
+void MyStack<T>::insert(T x){
+        Node* cursor=head;
+        if(head==nullptr){
+        Node* n = new Node;
+        n->data=x;
+        n->next=nullptr;
+        head=n;
+        }
+        while(cursor->next){
+        cursor=cursor->next;
+        }
+        Node* n= new Node;
+        n->data=x;
+        n->next=nullptr;
+        cursor->next=n;
+}
+template<class T>
+void MyStack<T>::push(T k){
+        Node* x = new Node;
+        x->next=head;
+        x->data=k;
+        head=x;
+}
+template<class T>
+T MyStack<T>::pop(){
+        Node* x=head;
+        T stuff;
+        stuff=x->data;
+        head=head->next;
+        delete x;
+        return stuff;
+}
+template<class T>
+T MyStack<T>::peek(){
+        return head->data;
+}
+template<class T>
+void MyStack<T>::print(){
+        Node* cursor=head;
+        while(cursor){
+                std::cout<<cursor->data<<"\n";
+                cursor=cursor->next;
+        }
+
+}
+
+

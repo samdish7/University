@@ -1,0 +1,7 @@
+Joe Eugene 16.75 40
+Bob Davis 14.86 40
+John Doe 12.32 40
+Sam Disharoon 19.50 40
+Kyrie Irving 50.43 40
+Jayson Tatum 45.67 40
+Joe Anderson 435.25 40

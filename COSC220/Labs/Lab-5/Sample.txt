@@ -1,0 +1,271 @@
+					Lab 5				Sam Disharoon
+Sample output:
+
+Adding employees from a file:
+Inserting: Joe Eugene
+Inserting: Bob Davis
+Inserting: John Doe
+Inserting: Sam Disharoon
+Inserting: Kyrie Irving
+Inserting: Jayson Tatum
+Inserting: Joe Anderson
+There are 7 employees in this stack
+
+Here are the list of Employees:
+
+Joe Anderson///Pay Rate: $435.25///Total Pay: $17410
+**************************************************************
+Jayson Tatum///Pay Rate: $45.67///Total Pay: $1826.8
+**************************************************************
+Kyrie Irving///Pay Rate: $50.43///Total Pay: $2017.2
+**************************************************************
+Sam Disharoon///Pay Rate: $19.5///Total Pay: $780
+**************************************************************
+John Doe///Pay Rate: $12.32///Total Pay: $492.8
+**************************************************************
+Bob Davis///Pay Rate: $14.86///Total Pay: $594.4
+**************************************************************
+Joe Eugene///Pay Rate: $16.75///Total Pay: $670
+**************************************************************
+
+
+Popping the employees!
+
+Joe Anderson///Pay Rate: $435.25///Total Pay: $17410
+**************************************************************
+Jayson Tatum///Pay Rate: $45.67///Total Pay: $1826.8
+**************************************************************
+Kyrie Irving///Pay Rate: $50.43///Total Pay: $2017.2
+**************************************************************
+Sam Disharoon///Pay Rate: $19.5///Total Pay: $780
+**************************************************************
+John Doe///Pay Rate: $12.32///Total Pay: $492.8
+**************************************************************
+Bob Davis///Pay Rate: $14.86///Total Pay: $594.4
+**************************************************************
+Joe Eugene///Pay Rate: $16.75///Total Pay: $670
+**************************************************************
+Pushing: New Guy
+Popping: New Guy
+New Guy///Pay Rate: $5.05///Total Pay: $202
+**************************************************************
+
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Code:
+
+main.cpp
+
+#include "payroll.h"
+#include "payrollstack.h"
+#include <fstream>
+#include <iostream>
+#include <string>
+int main (){
+        PayRollStack emp;
+        PayRoll x;
+        std::string fName;
+        std::string lName;
+        std::string Name;
+        double Rate;
+        double Hours;
+        std::ifstream file ("emp.txt");
+        std::cout << "Adding employees from a file:\n";
+        if (file.is_open()){
+        while (file>>fName>>lName>>Rate>>Hours){
+        Name=fName+" "+lName;
+        x.setName(Name);
+        x.setRate(Rate);
+        x.setHours(Hours);
+        std::cout<< "Inserting: "<<x.getName()<<"\n";
+        emp.push(x);
+        }
+        file.close();
+        }
+        else {std::cout << "Unable to read file\n.";}
+        std::cout<<"There are "<<emp.size()<<" employees in this stack\n\n";
+        std::cout<<"Here are the list of Employees:\n\n";
+        emp.printPayChecks();
+//      std::cout<<"\n\nThis list shows off the Copy CTOR:\n";
+//      PayRollStack emp2=emp;
+//      emp2.printPayChecks();
+        std::cout<<"\n\nPopping the employees!\n\n";
+        emp.pop();
+        emp.pop();
+        emp.pop();
+        emp.pop();
+        emp.pop();
+        emp.pop();
+	emp.pop();
+        PayRoll x2;
+        x2.setName("New Guy");
+        x2.setRate(5.05);
+        x2.setHours(40);
+        std::cout<<"Pushing: "<<x2.getName()<<"\n";
+        emp.push(x2);
+        std::cout<<"Popping: "<<x2.getName()<<"\n";
+        emp.pop();
+return 0;
+}
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+payroll.h
+
+#ifndef PAYROLL_H
+#define PAYROLL_H
+
+#include <string>
+class PayRoll{
+        private:
+        std::string name;
+        double rate;
+        double hours;
+
+        public:
+        PayRoll(){setName("Null"); setRate(0); setHours(0);}
+        PayRoll(std::string,double,double);
+
+        void printCheck();
+        double getTotal();
+        double getRate();
+        double getHours();
+        std::string getName();
+        void setRate(double);
+        void setName(std::string);
+        void setHours(double);
+};
+
+
+
+#endif
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+payroll.cpp
+
+#include "payroll.h"
+#include <iostream>
+PayRoll::PayRoll(std::string n, double r, double h){
+        name=n;
+        rate=r;
+        hours=h;
+}
+void PayRoll::setName(std::string n){
+        name=n;
+}
+std::string PayRoll::getName(){
+        return name;
+}
+void PayRoll::setRate(double r){
+        rate=r;
+}
+double PayRoll::getRate(){
+        return rate;
+}
+void PayRoll::setHours(double h){
+        hours=h;
+}
+double PayRoll::getHours(){
+        return hours;
+}
+double PayRoll::getTotal(){
+        return (rate*hours);
+}
+void PayRoll::printCheck(){
+        std::cout<<getName()<<"///";
+        std::cout<<"Pay Rate: $"<<getRate()<<"///";
+        std::cout<<"Total Pay: $"<<getTotal()<<"\n";
+        std::cout<<"**************************************************************\n";}
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+payrollstack.h
+
+#include <string>
+#include "payroll.h"
+class PayRollStack{
+        private:
+        struct StackNode {
+        PayRoll p;
+        StackNode* next;
+        };
+
+        StackNode* head;
+
+        public:
+        PayRollStack();
+        ~PayRollStack();
+        PayRollStack(const PayRollStack&);
+        PayRollStack operator=(const PayRollStack&);
+
+        void push(PayRoll p);
+        PayRoll pop();
+        int size();
+        void printPayChecks();
+
+};
+
+#endif
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+payrollstack.cpp
+
+#include "payrollstack.h"
+#include "payroll.h"
+#include <iostream>
+PayRollStack::PayRollStack(){
+head = nullptr;
+}
+PayRollStack::PayRollStack(const PayRollStack& other){
+        StackNode* cursor=other.head;
+        while(cursor){
+        push(cursor->p);
+        cursor=cursor->next;
+        }
+}
+/*PayRollStack PayRollStack::operator=(const PayRollStack& other){
+        StackNode* cursor=head;
+        other->p.setName(cursor->p.getName());
+        other->p.setRate(cursor->p.getRate());
+        other->p.setHours(cursor->p.getHours());
+
+}*/
+void PayRollStack::push(PayRoll pay){
+        StackNode* node = new StackNode;
+        node->next=head;
+        head=node;
+
+        node->p=pay;
+}
+PayRoll PayRollStack::pop(){
+        StackNode* node=nullptr;
+        StackNode* tmp=head;
+        PayRoll pay;
+        head=head->next;
+        pay=tmp->p;
+        tmp->p.printCheck();
+        delete tmp;
+        return pay;
+}
+int PayRollStack::size(){
+        StackNode* cursor=head;
+        int count=0;
+
+        while(cursor){
+        cursor=cursor->next;
+        count++;
+        }
+        return count;
+}
+void PayRollStack::printPayChecks(){
+        StackNode* cursor=head;
+        while(cursor){
+        cursor->p.printCheck();
+        cursor=cursor->next;
+        }
+}
+PayRollStack::~PayRollStack(){
+        StackNode* cursor = head;
+        while(cursor){
+        head = cursor->next;
+        delete cursor;
+        cursor = head;
+        }
+}
+

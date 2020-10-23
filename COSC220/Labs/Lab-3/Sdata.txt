@@ -1,0 +1,43 @@
+These are the hardcoded examples:
+*************************
+Employee: Sam Disharoon
+Pay Rate: $15.75
+Total pay this week: $630
+*************************
+Employee: Robert Williams
+Pay Rate: $23.45
+Total pay this week: $938
+*************************
+Employee: Kyrie Irving
+Pay Rate: $28.65
+Total pay this week: $1146
+*************************
+
+
+Adding employees from a file:
+*************************
+Employee: Sam Disharoon
+Pay Rate: $15.75
+Total pay this week: $630
+*************************
+Employee: Robert Williams
+Pay Rate: $23.45
+Total pay this week: $938
+*************************
+Employee: Kyrie Irving
+Pay Rate: $28.65
+Total pay this week: $1146
+*************************
+Employee: Joe Eugene
+Pay Rate: $16.75
+Total pay this week: $670
+*************************
+Employee: Bob Davis
+Pay Rate: $14.86
+Total pay this week: $594.4
+*************************
+Employee: John Doe
+Pay Rate: $12.32
+Total pay this week: $492.8
+*************************
+
