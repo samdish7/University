@@ -1,0 +1,8 @@
+# All useless files
+*.swp
+
+# All data and zipped files 
+*.ods
+*.ziip
+*.pdf
+*.docx
