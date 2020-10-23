@@ -1,0 +1,50 @@
+	rjlljeies+i{o	>s#kic(ufe)u,Ei_dTh
+
+	iaciu&e<s		ng!h>&i!'cl&e!s'/ct'at.&
+=ii&c!u'<cntt&h!
+#&cnll&e<)d		brh>c#u,c,lu;<	ig	al	h>
+sin	 (aot(pnttt,_RNYOhar** ar)[]]{		int in,choot,pout,sizz;e,j;
+	char c;
+	
+	if(argc!=){ST;			ia(n&"RG Efc='&<'"))
+		xit();
+)
+	}	}	
+eun;}n(argv[],O_RDONLY))<){
+		printf("Open error!\n");
+		exit();
+	}
+	size=lseek(in,(off_t),SEEK_END);
+	pid_t pid;
+	pid=fork();
+	
+	if(pid==){
+		
+		if((chout=open("child.txt",O_WRONLY|O_CREAT,))==-){
+			printf("Output file error!\n");
+			exit();
+		}
+		for(j=;j<size;j++){
+			lseek(in,(off_t) j,SEEK_SET);
+			read(in,&c,);
+			if(c!=''&&c!=''&&c!=''&&c!=''&&c!=''&&c!=''&&c!=''&&c!=''&&c!=''&&c!=''){
+				write(chout,&c,);
+			}	
+		}	
+	}
+
+	else{
+		if((pout=open("parent.txt",O_WRONLY|O_CREAT,))==-){
+			printf("Output file error!\n");
+			exit();
+		}
+		for(e=-;e<size;e++){
+			lseek(in,(off_t) e,SEEK_SET);
+			read(in,&c,);
+			if(c>=''&&c<=''){
+				write(pout,&c,);
+			}
+		}
+	}
+return ;
+}
