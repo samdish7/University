@@ -1,6 +1,7 @@
 # All useless files
 *.swp
-*.DS_Store
+.DS_Store
+
 # All data and zipped files 
 *.ods
 *.ziip
