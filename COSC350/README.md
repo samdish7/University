@@ -1,4 +1,4 @@
-#COSC350 Systems Software
+# COSC350 Systems Software
 
 Labs/Notes for COSC 350 at Salisbury University
 
