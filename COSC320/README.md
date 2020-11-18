@@ -7,7 +7,7 @@ Year ~> Fall 2019
 
 ## Langauges Used;
 
-**C++*
+**C++**
 
 ## Overview
 
