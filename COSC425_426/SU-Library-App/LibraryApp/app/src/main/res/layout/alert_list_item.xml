@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_item"
+    android:layout_width="match_parent"
+    android:layout_height="105dp"
+    android:orientation="horizontal"
+    android:paddingLeft="0dp"
+    android:paddingRight="0dp"> <!--Decreased Left/Right Padding
+    by 4 and decreased layout size by 8-->
+
+    <TextView
+        android:id="@+id/text_item"
+        android:layout_width="0dp"
+        android:layout_height="105dp"
+        android:layout_weight="1"
+        android:background="@color/colorPrimary"
+        android:gravity="center"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="@string/textView"
+        android:textAlignment="gravity"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp" /> <!--Decreased Size by 4-->
+
+</LinearLayout>

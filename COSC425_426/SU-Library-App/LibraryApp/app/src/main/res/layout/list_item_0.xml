@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Revamped by Sam Disharoon 2020
+used in Contact info and Helpful links-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_item0"
+    android:layout_width="match_parent"
+    android:layout_height="40dp"
+    android:background="#FFFFFF"
+    android:orientation="horizontal"
+    android:paddingTop="8dp"
+    android:paddingRight="20dp"
+    android:paddingBottom="8dp"
+    android:paddingLeft="20dp"> <!--Decreased Left/Right Padding
+    by 4 and decreased layout size by 8-->
+
+    <TextView
+        android:id="@+id/text_item0"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/textView"
+        android:textColor="#000000"
+        android:textSize="16sp" /> <!--Decreased Size by 4-->
+
+    <ImageView
+        android:id="@+id/arrow_right"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:layout_marginHorizontal="5dp"
+        android:layout_marginVertical="1dp"
+        android:src="@drawable/right_arrow" /><!--right arrow image for helpful links-->
+</LinearLayout>
