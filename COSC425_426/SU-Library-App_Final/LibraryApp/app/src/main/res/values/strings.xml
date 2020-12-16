@@ -1,0 +1,365 @@
+<resources>
+    <string name="app_name">SU Libraries</string>
+
+
+    <string name="about_link">Attributions &amp; Privacy</string> <!--Condensed-->
+    <string name="support">Support</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!--Copied from andy_strings.xml-->
+    <string name="json_url">https://libapps.salisbury.edu/app/computers.php?mapid=</string>
+    <string name="view_as_map_computer_url">https://labstats.salisbury.edu/LabStats/public/MapViewer/MapFull.aspx?MapID=</string>
+    <string name="contact_ask">How would you like to contact</string>
+
+    <!--search bar strings-->
+    <string name="app_label">SEARCH label</string>
+    <string name="search_hint">Search for resources</string>
+    <string name="search_title">Search</string>
+
+
+
+    <string-array name="helpful_strings"><!--combination of the above two arrays-->
+        <item>FREQUENTLY USED DATABASES</item> <!--header-->
+        <item>Academic Search Complete</item>
+        <item>JSTOR</item>
+        <item>Science Direct</item>
+        <item>Web of Science</item>
+        <item>HELP WITH CITATIONS</item> <!--header-->
+        <item>SU Libraries Citation Style Guide</item>
+        <item>EasyBib</item>
+        <item>EndNote Web</item>
+        <item>Purdue OWL</item>
+        <item>OTHER LIBRARY RESOURCES</item> <!--header-->
+        <item>Presenting Your Research</item>
+        <item>Copyright</item>
+        <item>SOAR@SU</item>
+        <item>SU Libraries Research Guides</item>
+        <item>SU Library Website</item>
+        <item>Nabb Center for Delmarva History</item>
+        <item>Curriculum Resource Center</item>
+        <item>SU LINKS</item> <!--header-->
+        <item>IT Help Desk</item>
+        <item>Center for Student Achievement</item>
+        <item>Writing Center</item>
+        <item>Salisbury University Homepage</item>
+    </string-array>
+
+
+    <string name="dialog_call_click">How would you like to contact </string>
+    <string name="click">Email</string>
+    <string name="call">Phone</string>
+    <string name="cancel">Cancel</string>
+
+    <!--Contains contact information to be insrted into contact info fragment ie email, phone no, staff etc-->
+    <string-array name="contact_headers">
+        <item>LIVE CHAT</item>
+        <item>BY PHONE</item>
+        <item>BY EMAIL</item>
+        <item>LIBRARY FACULTY &amp; STAFF</item>
+    </string-array>
+
+    <string-array name="list_strings"> <!--combined list of 'contact_who' and 'contact_deets'-->
+        <item>LIVE CHAT</item> <!--LIVE CHAT-->
+        <item>Guerrieri Academic Commons</item>
+        <item>Chat is available! <br /> Tap to chat with library staff.</item>
+        <item>SU Libraries MakerLab</item>
+        <item>Chat is available! <br /> Tap to chat with library staff.</item>
+        <item>Curriculum Resource Center</item>
+        <item>Chat is available! <br /> Tap to chat with library staff.</item>
+        <item>BY PHONE</item> <!--BY PHONE-->
+        <item>Research Help</item>
+        <item>(410)548&#8211;5988</item>
+        <item>Circulation</item>
+        <item>(410)543&#8211;6130</item>
+        <item>Toll Free</item>
+        <item>(888)543&#8211;0148 (ask for library)</item>
+        <item>App Support</item>
+        <item>(410)543&#8211;6306</item>
+        <item>BY EMAIL</item> <!--BY EMAIL-->
+        <item>Research Help</item>
+        <item>libraries@salisbury.edu</item>
+        <item>Circulation</item>
+        <item>libcirc@salisbury.edu</item>
+        <item>Interlibrary Loan</item>
+        <item>illoan@salisbury.edu</item>
+        <item>MakerLab</item>
+        <item>makerlab@salisbury.edu</item>
+        <item>SOAR@SU</item>
+        <item>soar@salisbury.edu</item>
+        <item>App Support</item>
+        <item>libapp@salisbury.edu</item>
+        <item>LIBRARY FACULTY &amp; STAFF</item> <!--LIBRARY FACULTY & STAFF-->
+    </string-array>
+    <!--copied from kris_strings.xml-->
+
+    <!--copied from nick_strings.xml-->
+    <string-array name="device_section_head">
+        <item>iPad Airs</item>
+        <item>iPad Pros</item>
+        <item>Other Devices</item>
+    </string-array>
+
+    <string-array name="device_titles">
+        <item>IPad Air</item>
+        <item>IPad Pro</item>
+        <item>Other Devices</item>
+    </string-array>
+
+    <string name="airs">iPad Airs</string>
+    <string name="pros">iPad Pros</string>
+    <string name="accessories">Other Devices</string>
+
+    <!-- device availability info -->
+    <string name="device_url">https://libapps.salisbury.edu/coll-man/device-circ/api/available.php</string>
+    <string name="device_available"> Available</string>
+    <string name="device_unavailable">This device is temporarily unavailable</string>
+    <string name="device_due">Due back</string>
+    <string name="no_info">Information unavailable</string>
+
+    <!-- dialog strings for device availability -->
+    <string name="device_avail_dialog">This device is available for checkout! Please visit the circulation desk in the
+    Guerrieri Academic Commons to check it out.</string>
+    <string name="device_checkout_dialog">This device is checked out and is currently due back on %1$s.</string>
+    <string name="device_navail_dialog1">Unfortunately, this device is temporarily unavailable.</string>
+    <string name="device_navail_dialog2">This usually means that there is an issue with the device that needs to be addressed
+        before we can check it out again (such as physical damage, etc.).</string>
+    <string name="device_navail_dialog3">We hope to return this device to circulation as soon as possible.</string>
+    <string name="device_status_reminder_dialog">Please note that device availability changes constantly, so we cannot guarantee
+    that any particular device will be available.</string>
+    <string name="ok">OK</string>
+
+    <!-- device filter instructions -->
+    <string name="device_filter_header">Choose which devices you would like to see on the Device Availability screen.</string>
+
+    <!--home page calendar text-->
+    <string name="todays_hours">Hours Today:</string>
+    <string name="lt">&lt;</string>
+    <string name="gt">&gt;</string>
+
+    <!--copied from nick_strings.xml-->
+
+    <!--page titles-->
+    <string name="news">News</string>
+    <string name="contact_info">Contact Information</string>
+    <string name="lib_hours">Library Hours</string>
+    <string name="chat">Chat</string>
+    <string name="research">Research Help</string>
+    <string name="study_room">Study Room Reservations</string>
+    <string name="card">My Card</string>
+    <string name="computer">Computer Availability</string>
+    <string name="device">Device Availability</string>
+    <string name="helpful_links">Helpful Links</string>
+    <string name="about">About</string>
+    <string name="library">SU Libraries</string>
+    <string name="gull_card">MyCard</string>
+    <string name="building_maps">Building Maps</string>
+    <string name="connection_error">Connection Error</string>
+
+    <!--<string-array name="research_headers">-->
+    <string name="lib_basic"> LIBRARY BASICS </string>
+    <string name="res_subj"> RESOURCES BY SUBJECT</string>
+    <!--</string-array>-->
+
+    <string-array name="url_for_subject_chat">
+        <item>http://libraryh3lp.com/presence/jid/</item>
+        <item>/libraryh3lp.com/text</item>
+    </string-array>
+
+    <!--<string-array name="resources_titles">-->
+    <string name="topic"> Select a Research Topic </string>
+    <string name="keywords"> Develop Keywords </string>
+    <string name="e_book"> Find Book &amp; eBooks </string>
+    <string name="article"> Find Articles</string>
+    <string name="eval_info"> Critically Evaluate Information </string>
+    <string name="bib"> Create an Annotated Bibliography </string>
+
+
+    <string-array name="subject_detailed_constant">
+        <item> Chat Status</item>
+        <item> Phone</item>
+        <item> Email</item>
+        <item> Office</item>
+    </string-array>
+
+
+
+    <string-array name="hours_header">
+        <item> Library Hours </item>
+    </string-array>
+
+    <string name="version">Version 1.3</string>
+    <string name="about_school">\@2020 Salisbury University Libraries</string> <!--Updated year-->
+    <string name="about_contact">For questions, comments, concerns; please contact Chris Woodall (cmwoodall@salisbury.edu).</string><!--Condensed-->
+
+    <string name="day">Day</string>
+    <string name="text">Text</string>
+
+    <!--fragment_chat.xml-->
+    <string name="chat_bubble">Chat Bubble</string>
+    <string name="loading">LOADING…</string>
+    <string name="error">There was a problem connecting to the chat. Please check your internet settings or try again later</string>
+    <string name="chat_status">SU Libraries Chat is currently</string>
+    <string name="facebook">FaceBook</string>
+    <string name="twitter">Twitter</string>
+    <string name="instagram">Instagram</string>
+    <string name="pinterest">Pinterest</string>
+    <string name="tumblr">Tumblr</string>
+
+    <!-- fragment_computer_availability_display -->
+    <string name="top">Top</string>
+    <string name="windows">Windows</string>
+    <string name="linux">Linux</string>
+    <string name="mac">Mac</string>
+    <string name="map">View As Map</string>
+    <string name="avail">Available</string>
+    <string name="use">In Use</string>
+    <string name="off">Off</string>
+
+    <!-- fragment_connnection_error -->
+    <string name="conn_error">There was a connection error. Tap on this box or use the back button to re-connect.</string>
+
+    <!-- fragment_home -->
+    <string name="logo">White SU Library Logo</string>
+    <string name="home_hours_url">https://api3.libcal.com/api_hours_grid.php?iid=823&amp;format=json&amp;weeks=2</string>
+    <string name="worldcat_url">https://salisbury.on.worldcat.org/search?queryString=</string>
+    <string name="alert_url">https://libapps.salisbury.edu/status/alert.php?p=app</string>
+    <string name="redirect_url">https://libapps.salisbury.edu/search/redirect.php</string>
+
+    <!-- fragment_maps_building -->
+    <string name="find">Map Unavailable!"</string>
+
+    <!-- fragment_my_card -->
+    <string name="remove">Remove</string>
+    <string name="space">Spacer</string>
+    <string name="brightness">Toggle Brightness</string>
+
+    <!-- fragment_privacy -->
+    <string name="privacy">Attributions &amp; Privacy</string>
+    <string name="message">The Salisbury University Libraries tracks some of your activity in this app and uses this data to help us improve our services. The information that we receive includes your device type and Android version, searches you perform, any information you enter when making reservations, and your name and barcode when you add your library card to the app. No other data is transmitted to the Libraries, and we do not share any of this information with third parties outside of Salisbury University.
+        For more information about how Salisbury University uses your information, see:
+</string>
+    <string name="privacy_url_name"><u>Privacy Notice</u></string>
+    <string name="privacy_url">https://www.salisbury.edu/administration/general-counsel/university-policies-legal/privacy.aspx</string>
+    <string name="designer">App icon design by Jordan Kursewicz</string>
+    <string name="priv_barcode">Barcode generation source code taken from \'Zebra Crossing\' open-source project https://github.com/zxing/zxing</string>
+    <string name="icon">Icons designed by Freepik and distributed by Flaticon\n\nAuthors:\nFreepik, Madebyoliver, Dave Gandy, Yannick, Picol, Gregor Cresnar, Icomoon, Vectors Market, Bogdan Rosu, EpicCoders, Zurb \n\nhttp://www.flaticon.com</string>
+    <string name="dev_update">2019–2020 App revisions developed by:\nSamuel Disharoon, Declan Sheehan, Jack Stoetzel, and Jordan Welch</string>
+
+    <!-- fragment_study_room_display -->
+    <string name="room">Room Image</string>
+    <string name="details">ROOM DETAILS</string>
+    <string name="avail_today">Availability (Today)</string>
+    <string name="capacity">Capacity</string>
+    <string name="location">Location</string>
+    <string name="features">Features</string>
+    <string name="reserve">Reserve This Room</string>
+
+    <!-- hours_item_1 -->
+    <string name="today">Today</string>
+
+    <!-- hours_item_2 -->
+    <string name="date">25</string>
+    <string name="fri">Fri</string>
+    <string name="hours">7am - 10pm</string>
+
+    <!-- list_item_0 -->
+    <string name="textView">TextView</string>
+
+    <!-- list_item_1 -->
+    <string name="imageView">ImageView</string>
+
+    <!-- app_bar_menu -->
+    <string name="filter">Filter</string>
+
+    <!-- CalendarFragment -->
+    <string name="unavail">Unavailable</string>
+
+    <!-- BarCodeFragment -->
+    <string name="edit">Edit Card</string>
+    <string name="bar_popup_title">Remove Gull Card</string>
+    <string name="bar_popup_desc">Are you sure you want to remove your library card?</string>
+    <string name="bar_popup_yes">Yes, Remove Card</string>
+
+    <!-- CardIfnoFragment -->
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="barcode">GullCard BarCode No.</string>
+    <string name="add_card">Add Card</string>
+    <string name="info_popup_title">Could Not Save Card</string>
+    <string name="info_popup_desc">Your barcode number should contain 14 digits. The number you entered is too short.</string>
+    <string name="info_popup_where">Where is my barcode?</string>
+    <string name="info_popup_ok">OK</string>
+    <string name="info_popup_link">https://libapps.salisbury.edu/app/gull-card.php</string>
+
+    <!-- ChatFragment -->
+    <string name="chat_avail_url">http://libraryh3lp.com/presence/jid/su-allstaff/chat.libraryh3lp.com/text</string>
+    <string name="chat_url">https://us.libraryh3lp.com/mobile/su-allstaff@chat.libraryh3lp.com?skin=22280&amp;identity=Librarian</string>
+    <string name="chat_later">Try Chatting Later</string>
+    <string name="Available">Available!</string>
+    <string name="tap">Tap To Start a New Chat</string>
+    <string name="cont">Continue</string>
+    <string name="unreachable">Unreachable</string>
+    <string name="retry">Retry</string>
+
+    <!-- ContactInfoFragment -->
+    <string name="contact_url">https://libapps.salisbury.edu/app/resources/json-parse.php?plist=Staff.plist</string>
+    <string name="order_url">https://libapps.salisbury.edu/app/resources/json-parse.php?plist=StaffDisplayOrder.plist</string>
+    <string name="available">available</string>
+
+    <!-- LibraryHoursFragment -->
+    <string name="hours_listed">The hours listed below are the times that the library service desk and the library stacks are open. Other areas of the library and other departments within the Guerrieri Academic Commons may keep different hours.</string>
+
+    <!-- ResearchHelpFragment -->
+    <string name="checking">Checking…</string>
+    <string name="subject_url">https://libapps.salisbury.edu/app/resources/json-parse.php?plist=GuideSubjects.plist</string>
+    <string name="subject_image">Subject Image</string>
+
+    <!-- SubjectDetailedFragment -->
+    <string-array name="subject_headers">
+        <item> Subject Librarian</item>
+        <item> Research Guides</item>
+        <item> Recommended Databases</item>
+    </string-array>
+    <string name="database_url">https://libapps.salisbury.edu/app/resources/json-parse.php?plist=Databases.plist</string>
+
+    <!--  StudyRoomReserveFragment  -->
+    <string name="rooms_url">https://libapps.salisbury.edu/room-reservations/app/rooms.json</string>
+
+    <!--  Salisbury University Makerlab Hours & Printers & Strings -->
+    <string name="makerlabhr_url">https://api3.libcal.com/api_hours_today.php?iid=823&amp;lid=4200&amp;format=json</string>
+    <!-- Replace the first %@ with today's date; the second with 100 days from today with the format (YYYY-MM-DD) -->
+    <string name="makerlabfullhr_url">https://salisbury.libcal.com/api/1.0/hours/4200?key=aa98e9bc4b81977a5f0cf397d73ddfa1&amp;from=%@&amp;to=%@</string>
+    <string name="makerlabprinter_url">https://libapps.salisbury.edu/makerlab/api/printers.php</string>
+    <string name="appointment_url">https://salisbury.libcal.com/appointments/gac?g=10706</string>
+    <string name="policies_url">https://www.salisbury.edu/libraries/services/makerlab/policies.aspx</string>
+    <string name="appointment_label">Full Hours</string>
+    <string name="makerlab_email">makerlab@salisbury.edu</string>
+    <string name="visit_us">Visit us in Room 118 of the Guerrieri Academic Commons!</string>
+    <string name="devices">Devices</string>
+    <string name="policy">MakerLab Policies</string>
+    <string name="ml_contact">Contact</string>
+    <string name="hours_today">Hours Today </string>
+    <string name="make_appoint">Make an Appointment </string>
+    <string name="closed">Closed</string>
+    <string name="schedule">Schedule by Appointment</string>
+    <string name="walkin">Currently available for walk-in patrons.</string>
+
+    <!-- Study Room Reserve Fragment -->
+    <string name="email">Email</string>
+    <string name="group">Group Name (Optional)</string>
+    <string name="duration">Select a Duration</string>
+    <string name="resDate">Select a Date</string>
+    <string name="time">Select a Time</string>
+    <string name="res">Submit Reservation</string>
+    <string name="availability_url">https://libapps.salisbury.edu/room-reservations/ajax/room_availability.php?rid=</string>
+    <string name="note">NOTE: The cumulative time for all your reservations cannot exceed 8 hours in a single week.</string>
+    <string name="res_popup_title">Reservation Created</string>
+    <string name="res_popup_desc">Thank you! You will receive an email shortly with the details of your reservation. Please note that your reservation is not confirmed until you receive this email.
+
+    If you do no receive an email, please contact the library for assistance.</string>
+    <string name="res_popup_err_title">Reservation Error</string>
+    <string name="res_popup_err_desc">There was an error making your reservation.</string>
+</resources>
+

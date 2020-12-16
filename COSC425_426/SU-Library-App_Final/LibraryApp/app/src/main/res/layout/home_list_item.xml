@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Created by Jordan Welch 2020-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/layout_itemHome"
+    android:layout_width="wrap_content"
+    android:layout_height="50dp"
+    android:background="#CCFFFFFF"
+    android:orientation="horizontal"
+    android:paddingLeft="16dp"
+    android:paddingTop="8dp"
+    android:paddingRight="16dp"
+    android:paddingBottom="8dp"> <!--Decreased Layout height by 8-->
+
+    <ImageView
+        android:id="@+id/image_itemHome"
+        android:layout_width="31dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="10dp"
+        android:contentDescription="@string/imageView"
+        app:srcCompat="@mipmap/ic_launcher" />
+
+    <TextView
+        android:id="@+id/text_itemHome"
+        android:layout_width="117dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:text="@string/textView"
+        android:textColor="#000000"
+        android:textSize="15sp" />
+</LinearLayout>
