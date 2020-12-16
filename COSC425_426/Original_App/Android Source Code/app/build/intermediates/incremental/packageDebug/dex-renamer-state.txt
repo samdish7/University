@@ -1,0 +1,7 @@
+#Mon Jan 22 14:28:37 EST 2018
+base.0=/Users/chriswoodall/Dropbox (Personal)/Work Documents/Library App/SULibraryApp/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_b77e1ee7b72fab0a3d7919602ac770c3709dae3d
+renamed.1=classes2.dex
+renamed.0=classes.dex
+file.1=/Users/chriswoodall/Dropbox (Personal)/Work Documents/Library App/SULibraryApp/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_45d93bb976cb3c0ac62af090a68ba44ea1e0ca60/classes.dex
+base.1=/Users/chriswoodall/Dropbox (Personal)/Work Documents/Library App/SULibraryApp/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_45d93bb976cb3c0ac62af090a68ba44ea1e0ca60
+file.0=/Users/chriswoodall/Dropbox (Personal)/Work Documents/Library App/SULibraryApp/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_b77e1ee7b72fab0a3d7919602ac770c3709dae3d/classes.dex

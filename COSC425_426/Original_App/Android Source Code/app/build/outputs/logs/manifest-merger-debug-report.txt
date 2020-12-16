@@ -1,0 +1,183 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/samdish/Documents/School/COSC_Work/COSC425-426/SU-Library-App/Originals/Android Source Code/app/src/main/AndroidManifest.xml:2:1-45:12
+INJECTED from /Users/samdish/Documents/School/COSC_Work/COSC425-426/SU-Library-App/Originals/Android Source Code/app/src/main/AndroidManifest.xml:2:1-45:12
+INJECTED from /Users/samdish/Documents/School/COSC_Work/COSC425-426/SU-Library-App/Originals/Android Source Code/app/src/main/AndroidManifest.xml:2:1-45:12
+INJECTED from /Users/samdish/Documents/School/COSC_Work/COSC425-426/SU-Library-App/Originals/Android Source Code/app/src/main/AndroidManifest.xml:2:1-45:12
+MERGED from [com.android.support:design:24.2.1] /Users/samdish/.gradle/caches/transforms-2/files-2.1/9a8ae071d5f35c113a02f877df094aa3/design-24.2.1/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:appcompat-v7:24.2.1] /Users/samdish/.gradle/caches/transforms-2/files-2.1/bb77b813ef7e5f5ecd4f96ea07e1910a/appcompat-v7-24.2.1/AndroidManifest.xml:17:1-27:12
+MERGED from [com.google.android.gms:play-services-appindexing:8.4.0] /Users/samdish/.gradle/caches/transforms-2/files-2.1/083dbacabf904ca72b77e5e9cf5a9ed9/play-services-appindexing-8.4.0/AndroidManifest.xml:16:1-20:12
+MERGED from [com.google.android.gms:play-services-base:8.4.0] /Users/samdish/.gradle/caches/transforms-2/files-2.1/65d544cf1c152c7a7e3a1969be9cd416/play-services-base-8.4.0/AndroidManifest.xml:16:1-19:12
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] /Users/samdish/.gradle/caches/transforms-2/files-2.1/a2d2b837f12eff3df64236d214074ecc/play-services-basement-8.4.0/AndroidManifest.xml:16:1-26:12
+MERGED from [com.android.support:support-v4:24.2.1] /Users/samdish/.gradle/caches/transforms-2/files-2.1/055dd309b90e47c92efa962f53e3caf0/support-v4-24.2.1/AndroidManifest.xml:17:1-27:12
+MERGED from [com.android.support:animated-vector-drawable:24.2.1] /Users/samdish/.gradle/caches/transforms-2/files-2.1/d2ee67b999b8b6dc83ee79b9888f44ca/animated-vector-drawable-24.2.1/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:support-vector-drawable:24.2.1] /Users/samdish/.gradle/caches/transforms-2/files-2.1/df443c0252b30346039767f394f3d019/support-vector-drawable-24.2.1/AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:recyclerview-v7:24.2.1] /Users/samdish/.gradle/caches/transforms-2/files-2.1/63fa104fa360d0152e83d96a9c853525/recyclerview-v7-24.2.1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:24.2.1] /Users/samdish/.gradle/caches/transforms-2/files-2.1/ecb6f6696c5317e112272c448c9ebc72/support-fragment-24.2.1/AndroidManifest.xml:17:1-27:12
+MERGED from [com.android.support:support-media-compat:24.2.1] /Users/samdish/.gradle/caches/transforms-2/files-2.1/4b35e62ba20ce3f9a519797d37fb545c/support-media-compat-24.2.1/AndroidManifest.xml:17:1-27:12
+MERGED from [com.android.support:support-core-utils:24.2.1] /Users/samdish/.gradle/caches/transforms-2/files-2.1/732e656851692125b170a24275c54eec/support-core-utils-24.2.1/AndroidManifest.xml:17:1-27:12
+MERGED from [com.android.support:support-core-ui:24.2.1] /Users/samdish/.gradle/caches/transforms-2/files-2.1/b846f0b54765ca76aa9eb1ebacdfb710/support-core-ui-24.2.1/AndroidManifest.xml:17:1-27:12
+MERGED from [com.android.support:support-compat:24.2.1] /Users/samdish/.gradle/caches/transforms-2/files-2.1/6600df2a200dbc16ef513323c3fcde32/support-compat-24.2.1/AndroidManifest.xml:17:1-27:12
+INJECTED from /Users/samdish/Documents/School/COSC_Work/COSC425-426/SU-Library-App/Originals/Android Source Code/app/src/main/AndroidManifest.xml:2:1-45:12
+INJECTED from /Users/samdish/Documents/School/COSC_Work/COSC425-426/SU-Library-App/Originals/Android Source Code/app/src/main/AndroidManifest.xml:2:1-45:12
+INJECTED from /Users/samdish/Documents/School/COSC_Work/COSC425-426/SU-Library-App/Originals/Android Source Code/app/src/main/AndroidManifest.xml:2:1-45:12
+	package
+		ADDED from /Users/samdish/Documents/School/COSC_Work/COSC425-426/SU-Library-App/Originals/Android Source Code/app/src/main/AndroidManifest.xml:3:5-42
+		INJECTED from /Users/samdish/Documents/School/COSC_Work/COSC425-426/SU-Library-App/Originals/Android Source Code/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/samdish/Documents/School/COSC_Work/COSC425-426/SU-Library-App/Originals/Android Source Code/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/samdish/Documents/School/COSC_Work/COSC425-426/SU-Library-App/Originals/Android Source Code/app/src/main/AndroidManifest.xml
+		ADDED from /Users/samdish/Documents/School/COSC_Work/COSC425-426/SU-Library-App/Originals/Android Source Code/app/src/main/AndroidManifest.xml:2:1-45:12
+		INJECTED from /Users/samdish/Documents/School/COSC_Work/COSC425-426/SU-Library-App/Originals/Android Source Code/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/samdish/Documents/School/COSC_Work/COSC425-426/SU-Library-App/Originals/Android Source Code/app/src/main/AndroidManifest.xml
+		ADDED from /Users/samdish/Documents/School/COSC_Work/COSC425-426/SU-Library-App/Originals/Android Source Code/app/src/main/AndroidManifest.xml:2:1-45:12
+		INJECTED from /Users/samdish/Documents/School/COSC_Work/COSC425-426/SU-Library-App/Originals/Android Source Code/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/samdish/Documents/School/COSC_Work/COSC425-426/SU-Library-App/Originals/Android Source Code/app/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from /Users/samdish/Documents/School/COSC_Work/COSC425-426/SU-Library-App/Originals/Android Source Code/app/src/main/AndroidManifest.xml:5:5-67
+	android:name
+		ADDED from /Users/samdish/Documents/School/COSC_Work/COSC425-426/SU-Library-App/Originals/Android Source Code/app/src/main/AndroidManifest.xml:5:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /Users/samdish/Documents/School/COSC_Work/COSC425-426/SU-Library-App/Originals/Android Source Code/app/src/main/AndroidManifest.xml:6:5-79
+	android:name
+		ADDED from /Users/samdish/Documents/School/COSC_Work/COSC425-426/SU-Library-App/Originals/Android Source Code/app/src/main/AndroidManifest.xml:6:22-76
+uses-permission#android.permission.BLUETOOTH
+ADDED from /Users/samdish/Documents/School/COSC_Work/COSC425-426/SU-Library-App/Originals/Android Source Code/app/src/main/AndroidManifest.xml:7:5-68
+	android:name
+		ADDED from /Users/samdish/Documents/School/COSC_Work/COSC425-426/SU-Library-App/Originals/Android Source Code/app/src/main/AndroidManifest.xml:7:22-65
+uses-permission#android.permission.CAMERA
+ADDED from /Users/samdish/Documents/School/COSC_Work/COSC425-426/SU-Library-App/Originals/Android Source Code/app/src/main/AndroidManifest.xml:9:5-65
+	android:name
+		ADDED from /Users/samdish/Documents/School/COSC_Work/COSC425-426/SU-Library-App/Originals/Android Source Code/app/src/main/AndroidManifest.xml:9:22-62
+uses-feature#android.hardware.camera
+ADDED from /Users/samdish/Documents/School/COSC_Work/COSC425-426/SU-Library-App/Originals/Android Source Code/app/src/main/AndroidManifest.xml:11:5-60
+	android:name
+		ADDED from /Users/samdish/Documents/School/COSC_Work/COSC425-426/SU-Library-App/Originals/Android Source Code/app/src/main/AndroidManifest.xml:11:19-57
+uses-feature#android.hardware.camera.autofocus
+ADDED from /Users/samdish/Documents/School/COSC_Work/COSC425-426/SU-Library-App/Originals/Android Source Code/app/src/main/AndroidManifest.xml:12:5-70
+	android:name
+		ADDED from /Users/samdish/Documents/School/COSC_Work/COSC425-426/SU-Library-App/Originals/Android Source Code/app/src/main/AndroidManifest.xml:12:19-67
+application
+ADDED from /Users/samdish/Documents/School/COSC_Work/COSC425-426/SU-Library-App/Originals/Android Source Code/app/src/main/AndroidManifest.xml:14:5-43:19
+MERGED from [com.android.support:design:24.2.1] /Users/samdish/.gradle/caches/transforms-2/files-2.1/9a8ae071d5f35c113a02f877df094aa3/design-24.2.1/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design:24.2.1] /Users/samdish/.gradle/caches/transforms-2/files-2.1/9a8ae071d5f35c113a02f877df094aa3/design-24.2.1/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:appcompat-v7:24.2.1] /Users/samdish/.gradle/caches/transforms-2/files-2.1/bb77b813ef7e5f5ecd4f96ea07e1910a/appcompat-v7-24.2.1/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:appcompat-v7:24.2.1] /Users/samdish/.gradle/caches/transforms-2/files-2.1/bb77b813ef7e5f5ecd4f96ea07e1910a/appcompat-v7-24.2.1/AndroidManifest.xml:25:5-20
+MERGED from [com.google.android.gms:play-services-appindexing:8.4.0] /Users/samdish/.gradle/caches/transforms-2/files-2.1/083dbacabf904ca72b77e5e9cf5a9ed9/play-services-appindexing-8.4.0/AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-appindexing:8.4.0] /Users/samdish/.gradle/caches/transforms-2/files-2.1/083dbacabf904ca72b77e5e9cf5a9ed9/play-services-appindexing-8.4.0/AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] /Users/samdish/.gradle/caches/transforms-2/files-2.1/a2d2b837f12eff3df64236d214074ecc/play-services-basement-8.4.0/AndroidManifest.xml:20:5-24:19
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] /Users/samdish/.gradle/caches/transforms-2/files-2.1/a2d2b837f12eff3df64236d214074ecc/play-services-basement-8.4.0/AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:24.2.1] /Users/samdish/.gradle/caches/transforms-2/files-2.1/055dd309b90e47c92efa962f53e3caf0/support-v4-24.2.1/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-v4:24.2.1] /Users/samdish/.gradle/caches/transforms-2/files-2.1/055dd309b90e47c92efa962f53e3caf0/support-v4-24.2.1/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:animated-vector-drawable:24.2.1] /Users/samdish/.gradle/caches/transforms-2/files-2.1/d2ee67b999b8b6dc83ee79b9888f44ca/animated-vector-drawable-24.2.1/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:animated-vector-drawable:24.2.1] /Users/samdish/.gradle/caches/transforms-2/files-2.1/d2ee67b999b8b6dc83ee79b9888f44ca/animated-vector-drawable-24.2.1/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-vector-drawable:24.2.1] /Users/samdish/.gradle/caches/transforms-2/files-2.1/df443c0252b30346039767f394f3d019/support-vector-drawable-24.2.1/AndroidManifest.xml:23:5-20
+MERGED from [com.android.support:support-vector-drawable:24.2.1] /Users/samdish/.gradle/caches/transforms-2/files-2.1/df443c0252b30346039767f394f3d019/support-vector-drawable-24.2.1/AndroidManifest.xml:23:5-20
+MERGED from [com.android.support:support-fragment:24.2.1] /Users/samdish/.gradle/caches/transforms-2/files-2.1/ecb6f6696c5317e112272c448c9ebc72/support-fragment-24.2.1/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-fragment:24.2.1] /Users/samdish/.gradle/caches/transforms-2/files-2.1/ecb6f6696c5317e112272c448c9ebc72/support-fragment-24.2.1/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-media-compat:24.2.1] /Users/samdish/.gradle/caches/transforms-2/files-2.1/4b35e62ba20ce3f9a519797d37fb545c/support-media-compat-24.2.1/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-media-compat:24.2.1] /Users/samdish/.gradle/caches/transforms-2/files-2.1/4b35e62ba20ce3f9a519797d37fb545c/support-media-compat-24.2.1/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-utils:24.2.1] /Users/samdish/.gradle/caches/transforms-2/files-2.1/732e656851692125b170a24275c54eec/support-core-utils-24.2.1/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-utils:24.2.1] /Users/samdish/.gradle/caches/transforms-2/files-2.1/732e656851692125b170a24275c54eec/support-core-utils-24.2.1/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-ui:24.2.1] /Users/samdish/.gradle/caches/transforms-2/files-2.1/b846f0b54765ca76aa9eb1ebacdfb710/support-core-ui-24.2.1/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-ui:24.2.1] /Users/samdish/.gradle/caches/transforms-2/files-2.1/b846f0b54765ca76aa9eb1ebacdfb710/support-core-ui-24.2.1/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:24.2.1] /Users/samdish/.gradle/caches/transforms-2/files-2.1/6600df2a200dbc16ef513323c3fcde32/support-compat-24.2.1/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:24.2.1] /Users/samdish/.gradle/caches/transforms-2/files-2.1/6600df2a200dbc16ef513323c3fcde32/support-compat-24.2.1/AndroidManifest.xml:25:5-20
+	android:supportsRtl
+		ADDED from /Users/samdish/Documents/School/COSC_Work/COSC425-426/SU-Library-App/Originals/Android Source Code/app/src/main/AndroidManifest.xml:18:9-35
+	android:label
+		ADDED from /Users/samdish/Documents/School/COSC_Work/COSC425-426/SU-Library-App/Originals/Android Source Code/app/src/main/AndroidManifest.xml:17:9-41
+	android:icon
+		ADDED from /Users/samdish/Documents/School/COSC_Work/COSC425-426/SU-Library-App/Originals/Android Source Code/app/src/main/AndroidManifest.xml:16:9-43
+	android:allowBackup
+		ADDED from /Users/samdish/Documents/School/COSC_Work/COSC425-426/SU-Library-App/Originals/Android Source Code/app/src/main/AndroidManifest.xml:15:9-35
+	android:theme
+		ADDED from /Users/samdish/Documents/School/COSC_Work/COSC425-426/SU-Library-App/Originals/Android Source Code/app/src/main/AndroidManifest.xml:19:9-40
+activity#thelibrarians2.sulibraryapp.MainActivity
+ADDED from /Users/samdish/Documents/School/COSC_Work/COSC425-426/SU-Library-App/Originals/Android Source Code/app/src/main/AndroidManifest.xml:20:9-34:20
+	android:screenOrientation
+		ADDED from /Users/samdish/Documents/School/COSC_Work/COSC425-426/SU-Library-App/Originals/Android Source Code/app/src/main/AndroidManifest.xml:23:13-49
+	android:launchMode
+		ADDED from /Users/samdish/Documents/School/COSC_Work/COSC425-426/SU-Library-App/Originals/Android Source Code/app/src/main/AndroidManifest.xml:22:13-43
+	android:name
+		ADDED from /Users/samdish/Documents/School/COSC_Work/COSC425-426/SU-Library-App/Originals/Android Source Code/app/src/main/AndroidManifest.xml:21:13-68
+intent-filter#action:name:android.intent.action.MAIN+action:name:android.intent.action.SEARCH+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/samdish/Documents/School/COSC_Work/COSC425-426/SU-Library-App/Originals/Android Source Code/app/src/main/AndroidManifest.xml:24:13-29:29
+action#android.intent.action.MAIN
+ADDED from /Users/samdish/Documents/School/COSC_Work/COSC425-426/SU-Library-App/Originals/Android Source Code/app/src/main/AndroidManifest.xml:25:17-69
+	android:name
+		ADDED from /Users/samdish/Documents/School/COSC_Work/COSC425-426/SU-Library-App/Originals/Android Source Code/app/src/main/AndroidManifest.xml:25:25-66
+action#android.intent.action.SEARCH
+ADDED from /Users/samdish/Documents/School/COSC_Work/COSC425-426/SU-Library-App/Originals/Android Source Code/app/src/main/AndroidManifest.xml:26:17-71
+	android:name
+		ADDED from /Users/samdish/Documents/School/COSC_Work/COSC425-426/SU-Library-App/Originals/Android Source Code/app/src/main/AndroidManifest.xml:26:25-68
+category#android.intent.category.LAUNCHER
+ADDED from /Users/samdish/Documents/School/COSC_Work/COSC425-426/SU-Library-App/Originals/Android Source Code/app/src/main/AndroidManifest.xml:28:17-77
+	android:name
+		ADDED from /Users/samdish/Documents/School/COSC_Work/COSC425-426/SU-Library-App/Originals/Android Source Code/app/src/main/AndroidManifest.xml:28:27-74
+meta-data#android.app.searchable
+ADDED from /Users/samdish/Documents/School/COSC_Work/COSC425-426/SU-Library-App/Originals/Android Source Code/app/src/main/AndroidManifest.xml:31:13-33:57
+	android:resource
+		ADDED from /Users/samdish/Documents/School/COSC_Work/COSC425-426/SU-Library-App/Originals/Android Source Code/app/src/main/AndroidManifest.xml:33:17-54
+	android:name
+		ADDED from /Users/samdish/Documents/School/COSC_Work/COSC425-426/SU-Library-App/Originals/Android Source Code/app/src/main/AndroidManifest.xml:32:17-54
+service#thelibrarians2.sulibraryapp.JSONPullingService
+ADDED from /Users/samdish/Documents/School/COSC_Work/COSC425-426/SU-Library-App/Originals/Android Source Code/app/src/main/AndroidManifest.xml:36:9-38:40
+	android:exported
+		ADDED from /Users/samdish/Documents/School/COSC_Work/COSC425-426/SU-Library-App/Originals/Android Source Code/app/src/main/AndroidManifest.xml:38:13-37
+	android:name
+		ADDED from /Users/samdish/Documents/School/COSC_Work/COSC425-426/SU-Library-App/Originals/Android Source Code/app/src/main/AndroidManifest.xml:37:13-47
+meta-data#com.google.android.gms.version
+ADDED from /Users/samdish/Documents/School/COSC_Work/COSC425-426/SU-Library-App/Originals/Android Source Code/app/src/main/AndroidManifest.xml:40:9-42:69
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] /Users/samdish/.gradle/caches/transforms-2/files-2.1/a2d2b837f12eff3df64236d214074ecc/play-services-basement-8.4.0/AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] /Users/samdish/.gradle/caches/transforms-2/files-2.1/a2d2b837f12eff3df64236d214074ecc/play-services-basement-8.4.0/AndroidManifest.xml:21:9-23:69
+	android:value
+		ADDED from /Users/samdish/Documents/School/COSC_Work/COSC425-426/SU-Library-App/Originals/Android Source Code/app/src/main/AndroidManifest.xml:42:13-66
+	android:name
+		ADDED from /Users/samdish/Documents/School/COSC_Work/COSC425-426/SU-Library-App/Originals/Android Source Code/app/src/main/AndroidManifest.xml:41:13-58
+uses-sdk
+INJECTED from /Users/samdish/Documents/School/COSC_Work/COSC425-426/SU-Library-App/Originals/Android Source Code/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/samdish/Documents/School/COSC_Work/COSC425-426/SU-Library-App/Originals/Android Source Code/app/src/main/AndroidManifest.xml
+INJECTED from /Users/samdish/Documents/School/COSC_Work/COSC425-426/SU-Library-App/Originals/Android Source Code/app/src/main/AndroidManifest.xml
+MERGED from [com.android.support:design:24.2.1] /Users/samdish/.gradle/caches/transforms-2/files-2.1/9a8ae071d5f35c113a02f877df094aa3/design-24.2.1/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:design:24.2.1] /Users/samdish/.gradle/caches/transforms-2/files-2.1/9a8ae071d5f35c113a02f877df094aa3/design-24.2.1/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:appcompat-v7:24.2.1] /Users/samdish/.gradle/caches/transforms-2/files-2.1/bb77b813ef7e5f5ecd4f96ea07e1910a/appcompat-v7-24.2.1/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:appcompat-v7:24.2.1] /Users/samdish/.gradle/caches/transforms-2/files-2.1/bb77b813ef7e5f5ecd4f96ea07e1910a/appcompat-v7-24.2.1/AndroidManifest.xml:21:5-23:78
+MERGED from [com.google.android.gms:play-services-appindexing:8.4.0] /Users/samdish/.gradle/caches/transforms-2/files-2.1/083dbacabf904ca72b77e5e9cf5a9ed9/play-services-appindexing-8.4.0/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-appindexing:8.4.0] /Users/samdish/.gradle/caches/transforms-2/files-2.1/083dbacabf904ca72b77e5e9cf5a9ed9/play-services-appindexing-8.4.0/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-base:8.4.0] /Users/samdish/.gradle/caches/transforms-2/files-2.1/65d544cf1c152c7a7e3a1969be9cd416/play-services-base-8.4.0/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-base:8.4.0] /Users/samdish/.gradle/caches/transforms-2/files-2.1/65d544cf1c152c7a7e3a1969be9cd416/play-services-base-8.4.0/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] /Users/samdish/.gradle/caches/transforms-2/files-2.1/a2d2b837f12eff3df64236d214074ecc/play-services-basement-8.4.0/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] /Users/samdish/.gradle/caches/transforms-2/files-2.1/a2d2b837f12eff3df64236d214074ecc/play-services-basement-8.4.0/AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:24.2.1] /Users/samdish/.gradle/caches/transforms-2/files-2.1/055dd309b90e47c92efa962f53e3caf0/support-v4-24.2.1/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-v4:24.2.1] /Users/samdish/.gradle/caches/transforms-2/files-2.1/055dd309b90e47c92efa962f53e3caf0/support-v4-24.2.1/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:animated-vector-drawable:24.2.1] /Users/samdish/.gradle/caches/transforms-2/files-2.1/d2ee67b999b8b6dc83ee79b9888f44ca/animated-vector-drawable-24.2.1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:24.2.1] /Users/samdish/.gradle/caches/transforms-2/files-2.1/d2ee67b999b8b6dc83ee79b9888f44ca/animated-vector-drawable-24.2.1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:24.2.1] /Users/samdish/.gradle/caches/transforms-2/files-2.1/df443c0252b30346039767f394f3d019/support-vector-drawable-24.2.1/AndroidManifest.xml:21:5-43
+MERGED from [com.android.support:support-vector-drawable:24.2.1] /Users/samdish/.gradle/caches/transforms-2/files-2.1/df443c0252b30346039767f394f3d019/support-vector-drawable-24.2.1/AndroidManifest.xml:21:5-43
+MERGED from [com.android.support:recyclerview-v7:24.2.1] /Users/samdish/.gradle/caches/transforms-2/files-2.1/63fa104fa360d0152e83d96a9c853525/recyclerview-v7-24.2.1/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:recyclerview-v7:24.2.1] /Users/samdish/.gradle/caches/transforms-2/files-2.1/63fa104fa360d0152e83d96a9c853525/recyclerview-v7-24.2.1/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-fragment:24.2.1] /Users/samdish/.gradle/caches/transforms-2/files-2.1/ecb6f6696c5317e112272c448c9ebc72/support-fragment-24.2.1/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-fragment:24.2.1] /Users/samdish/.gradle/caches/transforms-2/files-2.1/ecb6f6696c5317e112272c448c9ebc72/support-fragment-24.2.1/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:24.2.1] /Users/samdish/.gradle/caches/transforms-2/files-2.1/4b35e62ba20ce3f9a519797d37fb545c/support-media-compat-24.2.1/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-media-compat:24.2.1] /Users/samdish/.gradle/caches/transforms-2/files-2.1/4b35e62ba20ce3f9a519797d37fb545c/support-media-compat-24.2.1/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-utils:24.2.1] /Users/samdish/.gradle/caches/transforms-2/files-2.1/732e656851692125b170a24275c54eec/support-core-utils-24.2.1/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-utils:24.2.1] /Users/samdish/.gradle/caches/transforms-2/files-2.1/732e656851692125b170a24275c54eec/support-core-utils-24.2.1/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-ui:24.2.1] /Users/samdish/.gradle/caches/transforms-2/files-2.1/b846f0b54765ca76aa9eb1ebacdfb710/support-core-ui-24.2.1/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-ui:24.2.1] /Users/samdish/.gradle/caches/transforms-2/files-2.1/b846f0b54765ca76aa9eb1ebacdfb710/support-core-ui-24.2.1/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:24.2.1] /Users/samdish/.gradle/caches/transforms-2/files-2.1/6600df2a200dbc16ef513323c3fcde32/support-compat-24.2.1/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:24.2.1] /Users/samdish/.gradle/caches/transforms-2/files-2.1/6600df2a200dbc16ef513323c3fcde32/support-compat-24.2.1/AndroidManifest.xml:21:5-23:58
+INJECTED from /Users/samdish/Documents/School/COSC_Work/COSC425-426/SU-Library-App/Originals/Android Source Code/app/src/main/AndroidManifest.xml
+INJECTED from /Users/samdish/Documents/School/COSC_Work/COSC425-426/SU-Library-App/Originals/Android Source Code/app/src/main/AndroidManifest.xml
+	tools:overrideLibrary
+		ADDED from [com.android.support:appcompat-v7:24.2.1] /Users/samdish/.gradle/caches/transforms-2/files-2.1/bb77b813ef7e5f5ecd4f96ea07e1910a/appcompat-v7-24.2.1/AndroidManifest.xml:23:9-75
+	android:targetSdkVersion
+		INJECTED from /Users/samdish/Documents/School/COSC_Work/COSC425-426/SU-Library-App/Originals/Android Source Code/app/src/main/AndroidManifest.xml
+		ADDED from /Users/samdish/Documents/School/COSC_Work/COSC425-426/SU-Library-App/Originals/Android Source Code/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/samdish/Documents/School/COSC_Work/COSC425-426/SU-Library-App/Originals/Android Source Code/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/samdish/Documents/School/COSC_Work/COSC425-426/SU-Library-App/Originals/Android Source Code/app/src/main/AndroidManifest.xml
+		ADDED from /Users/samdish/Documents/School/COSC_Work/COSC425-426/SU-Library-App/Originals/Android Source Code/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/samdish/Documents/School/COSC_Work/COSC425-426/SU-Library-App/Originals/Android Source Code/app/src/main/AndroidManifest.xml

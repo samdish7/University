@@ -1,0 +1,4 @@
+#Mon Jun 11 09:35:10 EDT 2018
+base.0=/Users/chriswoodall/Dropbox (Personal)/Work Documents/Library App/SULibraryApp/app/build/intermediates/transforms/dexMerger/debug/10
+path.0=classes.dex
+renamed.0=classes.dex

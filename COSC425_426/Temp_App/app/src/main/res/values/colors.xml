@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#800000</color>
+    <color name="colorPrimaryDark">#770000</color>
+    <color name="colorAccent">#F7C55A</color>
+    <color name="color_yellow">#E6B800</color>
+    <color name="color_blue">#6699FF</color>
+    <color name="color_green">#66CC99</color>
+    <color name="color_purple">#6666CC</color>
+    <color name="color_red">#F10C0C</color>
+    <color name="color_lightRed">#FF6666</color>
+
+    <color name="listHeader">#F2F2F2</color> <!--background for list header-->
+    <color name="listBackground">#DDDDDD</color> <!--background for entire list-->
+    <color name="listMainText">#DD000000</color>
+    <color name="listSecondText">#8A000000</color>
+
+    <color name="common_action_bar_splitter">#D2D2D2</color>
+    <color name="common_signin_btn_dark_text_disabled">#FFAAAAAA</color>
+</resources>

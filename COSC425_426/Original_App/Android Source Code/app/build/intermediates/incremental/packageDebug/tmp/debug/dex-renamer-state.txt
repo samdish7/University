@@ -1,0 +1,4 @@
+#Tue Dec 15 23:06:53 EST 2020
+base.0=/Users/samdish/Documents/School/COSC_Work/COSC425-426/SU-Library-App/Originals/Android Source Code/app/build/intermediates/dex/debug/mergeDexDebug/out/classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

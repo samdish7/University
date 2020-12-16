@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#800000</color>
+    <color name="colorPrimaryDark">#770000</color>
+    <color name="colorAccent">#F7C55A</color>
+    <color name="color_red">#F10C0C</color>
+    <color name="color_grey">#808080</color>
+    <color name="color_yellow">#E1BD2B</color>
+    <color name="color_blue">#4D9CE0</color>
+    <color name="color_green">#39B273</color>
+
+
+    <color name="school_default">#AE1F01</color>
+    <color name="school_chhs">#009193</color>
+    <color name="school_fulton">#4D9DE0</color>
+    <color name="school_henson">#3AB273</color>
+    <color name="school_purdue">#E1BD29</color>
+    <color name="school_seidel">#7768AE</color>
+    <color name="school_none">#FF5453</color>
+
+
+
+
+    <color name="listHeader">#EEEFF4</color> <!--background for list header-->
+    <color name="listBackground">#EEEFF4</color> <!--background for entire list-->
+    <color name="listMainText">#DD000000</color>
+    <color name="listSecondText">#8A000000</color>
+
+    <color name="common_action_bar_splitter">#D2D2D2</color>
+    <color name="common_signin_btn_dark_text_disabled">#FFAAAAAA</color>
+
+    <color name="white_text">#FFFFFF</color>
+</resources>

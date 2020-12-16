@@ -1,0 +1,611 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/Users/chriswoodall/.android/build-cache/ee78ab373cd084c58819bdcd9b1c2e353b7885f0/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="9c4c3bc902450c39ed54de170db4fb12aea20a35">
+        <dex dex="/Users/chriswoodall/Dropbox/Work Documents/Library App/SULibraryApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_849f10523186f8eaf0f8182cbba9edc985f41f5d/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/chriswoodall/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-24.2.1.aar/2d8fb66065a4a16996c0f30a590540af/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="14"
+        optimize="true"
+        revision="26.0.2"
+        sha1="d5c731fc64c03dfe04d51134955b483551c35849">
+        <dex dex="/Users/chriswoodall/Dropbox (Personal)/Work Documents/Library App/SULibraryApp/app/build/intermediates/transforms/preDex/release/9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/chriswoodall/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/24.2.1/support-annotations-24.2.1.jar"
+        jumboMode="false"
+        min-sdk-version="14"
+        optimize="true"
+        revision="26.0.2"
+        sha1="8de3aafecbdf98a61db6427f008f2d515bcd2544">
+        <dex dex="/Users/chriswoodall/Dropbox (Personal)/Work Documents/Library App/SULibraryApp/app/build/intermediates/transforms/preDex/release/21.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/chriswoodall/.android/build-cache/ee78ab373cd084c58819bdcd9b1c2e353b7885f0/output/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="935a969265b2a166b2d20415423f5f6e90fe16e0">
+        <dex dex="/Users/chriswoodall/Dropbox/Work Documents/Library App/SULibraryApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_fa2f495129ccc0df4b8c83c5cb5a323176d916de/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/chriswoodall/.gradle/caches/transforms-1/files-1.1/support-fragment-24.2.1.aar/3bc740c1a5c366b75fd26109c58056b5/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="false"
+        min-sdk-version="14"
+        optimize="true"
+        revision="26.0.2"
+        sha1="5f64d657e838e8375135c0f6057a7ff8fab6a50e">
+        <dex dex="/Users/chriswoodall/Dropbox (Personal)/Work Documents/Library App/SULibraryApp/app/build/intermediates/transforms/preDex/release/12.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/chriswoodall/.gradle/caches/transforms-1/files-1.1/play-services-base-8.4.0.aar/738a44bcc0e7f4714e551627764ce621/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="14"
+        optimize="true"
+        revision="26.0.2"
+        sha1="fef2b3e4b6b1b0e5fe7b69fa137a5fa55a3182ab">
+        <dex dex="/Users/chriswoodall/Dropbox (Personal)/Work Documents/Library App/SULibraryApp/app/build/intermediates/transforms/preDex/release/5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/chriswoodall/.android/build-cache/d96b093971f6a0d8557c273e2df09436241ba9eb/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="fef2b3e4b6b1b0e5fe7b69fa137a5fa55a3182ab">
+        <dex dex="/Users/chriswoodall/Dropbox/Work Documents/Library App/SULibraryApp/app/build/intermediates/pre-dexed/debug/classes_ed1218883823d4da9a36d3a2fa91688586fcf4ea.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/chriswoodall/.android/build-cache/ba1c2b460afacbfea14f867ca647fe618e40d0f7/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="7521486d9bfd2cd9e756e0cf75ed7d97f2ce2d3b">
+        <dex dex="/Users/chriswoodall/Dropbox/Work Documents/Library App/SULibraryApp/app/build/intermediates/pre-dexed/debug/classes_74825469d77a61f8410def49834e3ac31a203684.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/chriswoodall/.android/build-cache/931442f97c46d02ba99e57489269864f5c4f9edc/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d5c731fc64c03dfe04d51134955b483551c35849">
+        <dex dex="/Users/chriswoodall/Dropbox/Work Documents/Library App/SULibraryApp/app/build/intermediates/pre-dexed/debug/classes_f721cc85b1a4deefaf27ddd628727ac58c39cb82.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/chriswoodall/.android/build-cache/ee78ab373cd084c58819bdcd9b1c2e353b7885f0/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="9c4c3bc902450c39ed54de170db4fb12aea20a35">
+        <dex dex="/Users/chriswoodall/Dropbox/Work Documents/Library App/SULibraryApp/app/build/intermediates/pre-dexed/debug/classes_849f10523186f8eaf0f8182cbba9edc985f41f5d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/chriswoodall/.android/build-cache/d3313071ad0a8b649ab3bf46f87fc33558387d4d/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/chriswoodall/Dropbox/Work Documents/Library App/SULibraryApp/app/build/intermediates/pre-dexed/debug/classes_5866adda12cf86082feea186435bab3ac6e7d579.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/chriswoodall/.android/build-cache/7be5843ea1f0c2998623a7f3a117ce6700c57f60/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="e7f3132168957eefc46229fc32c3bd464642b71e">
+        <dex dex="/Users/chriswoodall/Dropbox/Work Documents/Library App/SULibraryApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_67edc8762584ec616588710fc4e623a732405752/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/chriswoodall/.android/build-cache/80124dfa9ad9328ceef4f2449123e23af164d5d6/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="65d086ee9daaf87b5af62ad24471edafa433354c">
+        <dex dex="/Users/chriswoodall/Dropbox/Work Documents/Library App/SULibraryApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_441d7088915e7df564ec813c841bc928e07ddab7/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/chriswoodall/.gradle/caches/transforms-1/files-1.1/appcompat-v7-24.2.1.aar/33c68023ff1842fee8f6317b8562fe39/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="14"
+        optimize="true"
+        revision="26.0.2"
+        sha1="43b2dba6b5a0b14527961b75329d0b90025f15ea">
+        <dex dex="/Users/chriswoodall/Dropbox (Personal)/Work Documents/Library App/SULibraryApp/app/build/intermediates/transforms/preDex/release/3.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/chriswoodall/.android/build-cache/f37da5ed9f38a11fa9ec2ba3461ce9ec9a10a815/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="94bc1dfb84dcc8b6f6f8f7cc726d7b2dd39c1574">
+        <dex dex="/Users/chriswoodall/Dropbox/Work Documents/Library App/SULibraryApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_9a23fe14f5269527ff7d2a6d9d24e1c31aa94630/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/chriswoodall/.gradle/caches/modules-2/files-2.1/com.google.zxing/core/3.0.0/ee7d9bc1ce7f847f6de8d089c866831effe8d415/core-3.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="ee7d9bc1ce7f847f6de8d089c866831effe8d415">
+        <dex dex="/Users/chriswoodall/Dropbox/Work Documents/Library App/SULibraryApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/core-3.0.0_7d18dc4a42ce685384a159fe2a67bdb2d9efcf8a/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/chriswoodall/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/24.2.1/support-annotations-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="8de3aafecbdf98a61db6427f008f2d515bcd2544">
+        <dex dex="/Users/chriswoodall/Dropbox/Work Documents/Library App/SULibraryApp/app/build/intermediates/pre-dexed/debug/support-annotations-24.2.1_72ba1d68dc49848bdc1e18859cb60b8b84502335.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/chriswoodall/.android/build-cache/534fbdd0c662875d5b694d58e5b3bdcd9583ac09/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="8e673cdfadd8f2d98fdb2fda2285c30f6e449782">
+        <dex dex="/Users/chriswoodall/Dropbox/Work Documents/Library App/SULibraryApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_f8da6e636ebb721f770856fad64d1a0d181ec2e1/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/chriswoodall/.android/build-cache/7be5843ea1f0c2998623a7f3a117ce6700c57f60/output/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="867dad63c33388ff8c7644b236579355036d075f">
+        <dex dex="/Users/chriswoodall/Dropbox/Work Documents/Library App/SULibraryApp/app/build/intermediates/pre-dexed/debug/internal_impl-24.2.1_4b74da24ceffbb02f24c1f0fbb9c4c50f072213f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/chriswoodall/.android/build-cache/8f37d7a6a6c106003b590259b338775b84777fd9/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="b9a1ac78ad7ef3abedc4a4b30cd92bcacb939d1f">
+        <dex dex="/Users/chriswoodall/Dropbox/Work Documents/Library App/SULibraryApp/app/build/intermediates/pre-dexed/debug/classes_10496870370d049c83b178d410aee340e9eb115f.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/chriswoodall/.android/build-cache/8a565d32f70361e91271b037cde7fb59d47fadcc/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="09b462bbcb77650284bd6614f1a32f360ef369f8">
+        <dex dex="/Users/chriswoodall/Dropbox/Work Documents/Library App/SULibraryApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_53d84b9b66c3b6f0c8201251eba16d55e271f8fc/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/chriswoodall/.android/build-cache/7be5843ea1f0c2998623a7f3a117ce6700c57f60/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="e7f3132168957eefc46229fc32c3bd464642b71e">
+        <dex dex="/Users/chriswoodall/Dropbox/Work Documents/Library App/SULibraryApp/app/build/intermediates/pre-dexed/debug/classes_67edc8762584ec616588710fc4e623a732405752.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/chriswoodall/.android/build-cache/931442f97c46d02ba99e57489269864f5c4f9edc/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d5c731fc64c03dfe04d51134955b483551c35849">
+        <dex dex="/Users/chriswoodall/Dropbox/Work Documents/Library App/SULibraryApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_f721cc85b1a4deefaf27ddd628727ac58c39cb82/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/chriswoodall/.android/build-cache/80124dfa9ad9328ceef4f2449123e23af164d5d6/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="65d086ee9daaf87b5af62ad24471edafa433354c">
+        <dex dex="/Users/chriswoodall/Dropbox/Work Documents/Library App/SULibraryApp/app/build/intermediates/pre-dexed/debug/classes_441d7088915e7df564ec813c841bc928e07ddab7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/chriswoodall/.gradle/caches/modules-2/files-2.1/com.google.zxing/core/3.0.0/ee7d9bc1ce7f847f6de8d089c866831effe8d415/core-3.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="ee7d9bc1ce7f847f6de8d089c866831effe8d415">
+        <dex dex="/Users/chriswoodall/Dropbox/Work Documents/Library App/SULibraryApp/app/build/intermediates/pre-dexed/debug/core-3.0.0_7d18dc4a42ce685384a159fe2a67bdb2d9efcf8a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/chriswoodall/.android/build-cache/534fbdd0c662875d5b694d58e5b3bdcd9583ac09/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="8e673cdfadd8f2d98fdb2fda2285c30f6e449782">
+        <dex dex="/Users/chriswoodall/Dropbox/Work Documents/Library App/SULibraryApp/app/build/intermediates/pre-dexed/debug/classes_f8da6e636ebb721f770856fad64d1a0d181ec2e1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/chriswoodall/.gradle/caches/transforms-1/files-1.1/support-media-compat-24.2.1.aar/afa39bd2ae3e224eb89589a34d17af2f/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="false"
+        min-sdk-version="14"
+        optimize="true"
+        revision="26.0.2"
+        sha1="fbf8da429efd5ad21e02e3e5ecaa1efc4167878d">
+        <dex dex="/Users/chriswoodall/Dropbox (Personal)/Work Documents/Library App/SULibraryApp/app/build/intermediates/transforms/preDex/release/16.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/chriswoodall/.gradle/caches/transforms-1/files-1.1/support-core-ui-24.2.1.aar/9f7e7795fe46465ca0519cac204f880d/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="false"
+        min-sdk-version="14"
+        optimize="true"
+        revision="26.0.2"
+        sha1="867dad63c33388ff8c7644b236579355036d075f">
+        <dex dex="/Users/chriswoodall/Dropbox (Personal)/Work Documents/Library App/SULibraryApp/app/build/intermediates/transforms/preDex/release/14.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/chriswoodall/.android/build-cache/ee78ab373cd084c58819bdcd9b1c2e353b7885f0/output/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="935a969265b2a166b2d20415423f5f6e90fe16e0">
+        <dex dex="/Users/chriswoodall/Dropbox/Work Documents/Library App/SULibraryApp/app/build/intermediates/pre-dexed/debug/internal_impl-24.2.1_fa2f495129ccc0df4b8c83c5cb5a323176d916de.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/chriswoodall/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/24.2.1/support-annotations-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="8de3aafecbdf98a61db6427f008f2d515bcd2544">
+        <dex dex="/Users/chriswoodall/Dropbox/Work Documents/Library App/SULibraryApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-24.2.1_72ba1d68dc49848bdc1e18859cb60b8b84502335/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/chriswoodall/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-24.2.1.aar/dca79c342297ce08afd4949092509ed7/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="14"
+        optimize="true"
+        revision="26.0.2"
+        sha1="7521486d9bfd2cd9e756e0cf75ed7d97f2ce2d3b">
+        <dex dex="/Users/chriswoodall/Dropbox (Personal)/Work Documents/Library App/SULibraryApp/app/build/intermediates/transforms/preDex/release/10.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/chriswoodall/.android/build-cache/ba1c2b460afacbfea14f867ca647fe618e40d0f7/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="7521486d9bfd2cd9e756e0cf75ed7d97f2ce2d3b">
+        <dex dex="/Users/chriswoodall/Dropbox/Work Documents/Library App/SULibraryApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_74825469d77a61f8410def49834e3ac31a203684/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/chriswoodall/.android/build-cache/d96b093971f6a0d8557c273e2df09436241ba9eb/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="fef2b3e4b6b1b0e5fe7b69fa137a5fa55a3182ab">
+        <dex dex="/Users/chriswoodall/Dropbox/Work Documents/Library App/SULibraryApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_ed1218883823d4da9a36d3a2fa91688586fcf4ea/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/chriswoodall/.android/build-cache/7be5843ea1f0c2998623a7f3a117ce6700c57f60/output/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="867dad63c33388ff8c7644b236579355036d075f">
+        <dex dex="/Users/chriswoodall/Dropbox/Work Documents/Library App/SULibraryApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_4b74da24ceffbb02f24c1f0fbb9c4c50f072213f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/chriswoodall/.android/build-cache/0a5f675b550c570f629f9f4e68b88fb87b3888c4/output/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="7e4389bd133359a2ff88623ff1e4ff93d6e6f780">
+        <dex dex="/Users/chriswoodall/Dropbox/Work Documents/Library App/SULibraryApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_e1f66b6bb6333dbb428d480eaa37d0450787e1e8/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/chriswoodall/.gradle/caches/transforms-1/files-1.1/support-compat-24.2.1.aar/a11cb868d20517de7b4f5fb565c1164a/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="14"
+        optimize="true"
+        revision="26.0.2"
+        sha1="0ecb4b595fa0f0f8018a149ace3ea6525624f94e">
+        <dex dex="/Users/chriswoodall/Dropbox (Personal)/Work Documents/Library App/SULibraryApp/app/build/intermediates/transforms/preDex/release/19.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/chriswoodall/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-24.2.1.aar/339b2928557a302b75f57631d87c6cf0/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="14"
+        optimize="true"
+        revision="26.0.2"
+        sha1="94bc1dfb84dcc8b6f6f8f7cc726d7b2dd39c1574">
+        <dex dex="/Users/chriswoodall/Dropbox (Personal)/Work Documents/Library App/SULibraryApp/app/build/intermediates/transforms/preDex/release/8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/chriswoodall/.gradle/caches/transforms-1/files-1.1/play-services-appindexing-8.4.0.aar/fce6f7cf4771ed747d78221b8da8cf4f/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="14"
+        optimize="true"
+        revision="26.0.2"
+        sha1="65d086ee9daaf87b5af62ad24471edafa433354c">
+        <dex dex="/Users/chriswoodall/Dropbox (Personal)/Work Documents/Library App/SULibraryApp/app/build/intermediates/transforms/preDex/release/4.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/chriswoodall/.android/build-cache/dc3c18bd86b6b3e5f01c5ff3838feec68c32849f/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="e03f47f3d1017a093bb3239d4ec47c3447f40744">
+        <dex dex="/Users/chriswoodall/Dropbox/Work Documents/Library App/SULibraryApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_6977c85bd43b447c760189979d6664430e4a76ca/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/chriswoodall/Dropbox (Personal)/Work Documents/Library App/SULibraryApp/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="7153327fcf59bb8bb90f2a943fa82ef1b63ba169">
+        <dex dex="/Users/chriswoodall/Dropbox (Personal)/Work Documents/Library App/SULibraryApp/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_b77e1ee7b72fab0a3d7919602ac770c3709dae3d/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/chriswoodall/.gradle/caches/transforms-1/files-1.1/support-fragment-24.2.1.aar/3bc740c1a5c366b75fd26109c58056b5/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="14"
+        optimize="true"
+        revision="26.0.2"
+        sha1="b9a1ac78ad7ef3abedc4a4b30cd92bcacb939d1f">
+        <dex dex="/Users/chriswoodall/Dropbox (Personal)/Work Documents/Library App/SULibraryApp/app/build/intermediates/transforms/preDex/release/11.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/chriswoodall/.gradle/caches/transforms-1/files-1.1/play-services-basement-8.4.0.aar/bd76e3d6355906b803c13153df7e6718/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="14"
+        optimize="true"
+        revision="26.0.2"
+        sha1="8e673cdfadd8f2d98fdb2fda2285c30f6e449782">
+        <dex dex="/Users/chriswoodall/Dropbox (Personal)/Work Documents/Library App/SULibraryApp/app/build/intermediates/transforms/preDex/release/6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/chriswoodall/.gradle/caches/transforms-1/files-1.1/support-core-ui-24.2.1.aar/9f7e7795fe46465ca0519cac204f880d/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="14"
+        optimize="true"
+        revision="26.0.2"
+        sha1="e7f3132168957eefc46229fc32c3bd464642b71e">
+        <dex dex="/Users/chriswoodall/Dropbox (Personal)/Work Documents/Library App/SULibraryApp/app/build/intermediates/transforms/preDex/release/13.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/chriswoodall/.android/build-cache/0a5f675b550c570f629f9f4e68b88fb87b3888c4/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="0ecb4b595fa0f0f8018a149ace3ea6525624f94e">
+        <dex dex="/Users/chriswoodall/Dropbox/Work Documents/Library App/SULibraryApp/app/build/intermediates/pre-dexed/debug/classes_cfb79317013bdc21e715482d1d9ce322b230203b.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/chriswoodall/.android/build-cache/8f37d7a6a6c106003b590259b338775b84777fd9/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="b9a1ac78ad7ef3abedc4a4b30cd92bcacb939d1f">
+        <dex dex="/Users/chriswoodall/Dropbox/Work Documents/Library App/SULibraryApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_10496870370d049c83b178d410aee340e9eb115f/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/chriswoodall/.gradle/caches/modules-2/files-2.1/com.google.zxing/core/3.0.0/ee7d9bc1ce7f847f6de8d089c866831effe8d415/core-3.0.0.jar"
+        jumboMode="false"
+        min-sdk-version="14"
+        optimize="true"
+        revision="26.0.2"
+        sha1="ee7d9bc1ce7f847f6de8d089c866831effe8d415">
+        <dex dex="/Users/chriswoodall/Dropbox (Personal)/Work Documents/Library App/SULibraryApp/app/build/intermediates/transforms/preDex/release/1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/chriswoodall/.android/build-cache/8a565d32f70361e91271b037cde7fb59d47fadcc/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="09b462bbcb77650284bd6614f1a32f360ef369f8">
+        <dex dex="/Users/chriswoodall/Dropbox/Work Documents/Library App/SULibraryApp/app/build/intermediates/pre-dexed/debug/classes_53d84b9b66c3b6f0c8201251eba16d55e271f8fc.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/chriswoodall/.android/build-cache/8f37d7a6a6c106003b590259b338775b84777fd9/output/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="5f64d657e838e8375135c0f6057a7ff8fab6a50e">
+        <dex dex="/Users/chriswoodall/Dropbox/Work Documents/Library App/SULibraryApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_8294083a861b2783fc2cbbdebc80a98b91c59d4f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/chriswoodall/Dropbox (Personal)/Work Documents/Library App/SULibraryApp/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="510aa6efc159983dfbffa676a0dae37568c0a46f">
+        <dex dex="/Users/chriswoodall/Dropbox (Personal)/Work Documents/Library App/SULibraryApp/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_45d93bb976cb3c0ac62af090a68ba44ea1e0ca60/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/chriswoodall/.gradle/caches/transforms-1/files-1.1/design-24.2.1.aar/04927c54569ffac866efac5b93a75574/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="14"
+        optimize="true"
+        revision="26.0.2"
+        sha1="e03f47f3d1017a093bb3239d4ec47c3447f40744">
+        <dex dex="/Users/chriswoodall/Dropbox (Personal)/Work Documents/Library App/SULibraryApp/app/build/intermediates/transforms/preDex/release/2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/chriswoodall/.gradle/caches/transforms-1/files-1.1/support-v4-24.2.1.aar/1ff5459871b6ba49776598a5fbd86542/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="14"
+        optimize="true"
+        revision="26.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/chriswoodall/Dropbox (Personal)/Work Documents/Library App/SULibraryApp/app/build/intermediates/transforms/preDex/release/7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/chriswoodall/.android/build-cache/8f37d7a6a6c106003b590259b338775b84777fd9/output/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="5f64d657e838e8375135c0f6057a7ff8fab6a50e">
+        <dex dex="/Users/chriswoodall/Dropbox/Work Documents/Library App/SULibraryApp/app/build/intermediates/pre-dexed/debug/internal_impl-24.2.1_8294083a861b2783fc2cbbdebc80a98b91c59d4f.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/chriswoodall/.android/build-cache/d3313071ad0a8b649ab3bf46f87fc33558387d4d/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/chriswoodall/Dropbox/Work Documents/Library App/SULibraryApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_5866adda12cf86082feea186435bab3ac6e7d579/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/chriswoodall/.gradle/caches/transforms-1/files-1.1/support-core-utils-24.2.1.aar/d9797b89c84ff86464f0c73b9ef52014/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="false"
+        min-sdk-version="14"
+        optimize="true"
+        revision="26.0.2"
+        sha1="935a969265b2a166b2d20415423f5f6e90fe16e0">
+        <dex dex="/Users/chriswoodall/Dropbox (Personal)/Work Documents/Library App/SULibraryApp/app/build/intermediates/transforms/preDex/release/18.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/chriswoodall/.android/build-cache/8a565d32f70361e91271b037cde7fb59d47fadcc/output/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="fbf8da429efd5ad21e02e3e5ecaa1efc4167878d">
+        <dex dex="/Users/chriswoodall/Dropbox/Work Documents/Library App/SULibraryApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_3526606a849e1ce6ea86b0bcdef41adaa3011b95/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/chriswoodall/.android/build-cache/0a5f675b550c570f629f9f4e68b88fb87b3888c4/output/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="7e4389bd133359a2ff88623ff1e4ff93d6e6f780">
+        <dex dex="/Users/chriswoodall/Dropbox/Work Documents/Library App/SULibraryApp/app/build/intermediates/pre-dexed/debug/internal_impl-24.2.1_e1f66b6bb6333dbb428d480eaa37d0450787e1e8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/chriswoodall/.android/build-cache/f4578fa8a437e6a04c1c073fdc927c06f0ed82fe/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="43b2dba6b5a0b14527961b75329d0b90025f15ea">
+        <dex dex="/Users/chriswoodall/Dropbox/Work Documents/Library App/SULibraryApp/app/build/intermediates/pre-dexed/debug/classes_072f11fed824d45dbe7e25b16a3b899f78d4d38f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/chriswoodall/.android/build-cache/f37da5ed9f38a11fa9ec2ba3461ce9ec9a10a815/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="94bc1dfb84dcc8b6f6f8f7cc726d7b2dd39c1574">
+        <dex dex="/Users/chriswoodall/Dropbox/Work Documents/Library App/SULibraryApp/app/build/intermediates/pre-dexed/debug/classes_9a23fe14f5269527ff7d2a6d9d24e1c31aa94630.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/chriswoodall/.android/build-cache/f4578fa8a437e6a04c1c073fdc927c06f0ed82fe/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="43b2dba6b5a0b14527961b75329d0b90025f15ea">
+        <dex dex="/Users/chriswoodall/Dropbox/Work Documents/Library App/SULibraryApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_072f11fed824d45dbe7e25b16a3b899f78d4d38f/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/chriswoodall/.gradle/caches/transforms-1/files-1.1/support-compat-24.2.1.aar/a11cb868d20517de7b4f5fb565c1164a/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="false"
+        min-sdk-version="14"
+        optimize="true"
+        revision="26.0.2"
+        sha1="7e4389bd133359a2ff88623ff1e4ff93d6e6f780">
+        <dex dex="/Users/chriswoodall/Dropbox (Personal)/Work Documents/Library App/SULibraryApp/app/build/intermediates/transforms/preDex/release/20.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/chriswoodall/.gradle/caches/transforms-1/files-1.1/support-core-utils-24.2.1.aar/d9797b89c84ff86464f0c73b9ef52014/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="14"
+        optimize="true"
+        revision="26.0.2"
+        sha1="9c4c3bc902450c39ed54de170db4fb12aea20a35">
+        <dex dex="/Users/chriswoodall/Dropbox (Personal)/Work Documents/Library App/SULibraryApp/app/build/intermediates/transforms/preDex/release/17.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/chriswoodall/.android/build-cache/0a5f675b550c570f629f9f4e68b88fb87b3888c4/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="0ecb4b595fa0f0f8018a149ace3ea6525624f94e">
+        <dex dex="/Users/chriswoodall/Dropbox/Work Documents/Library App/SULibraryApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_cfb79317013bdc21e715482d1d9ce322b230203b/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/chriswoodall/.android/build-cache/dc3c18bd86b6b3e5f01c5ff3838feec68c32849f/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="e03f47f3d1017a093bb3239d4ec47c3447f40744">
+        <dex dex="/Users/chriswoodall/Dropbox/Work Documents/Library App/SULibraryApp/app/build/intermediates/pre-dexed/debug/classes_6977c85bd43b447c760189979d6664430e4a76ca.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/chriswoodall/.gradle/caches/transforms-1/files-1.1/support-media-compat-24.2.1.aar/afa39bd2ae3e224eb89589a34d17af2f/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="14"
+        optimize="true"
+        revision="26.0.2"
+        sha1="09b462bbcb77650284bd6614f1a32f360ef369f8">
+        <dex dex="/Users/chriswoodall/Dropbox (Personal)/Work Documents/Library App/SULibraryApp/app/build/intermediates/transforms/preDex/release/15.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/chriswoodall/.android/build-cache/8a565d32f70361e91271b037cde7fb59d47fadcc/output/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="fbf8da429efd5ad21e02e3e5ecaa1efc4167878d">
+        <dex dex="/Users/chriswoodall/Dropbox/Work Documents/Library App/SULibraryApp/app/build/intermediates/pre-dexed/debug/internal_impl-24.2.1_3526606a849e1ce6ea86b0bcdef41adaa3011b95.jar" />
+    </item>
+
+</items>

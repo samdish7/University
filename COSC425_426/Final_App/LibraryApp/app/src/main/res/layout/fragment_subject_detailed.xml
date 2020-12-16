@@ -1,0 +1,114 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    android:orientation="vertical"
+    tools:context="thelibrarians2.sulibraryapp.ResearchHelpFragment">
+    <!-- creates the rectangular box at the top of the screen, to be filled
+                        with specified color of the subject -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/acc_header"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:background="@color/school_purdue"
+                android:contentDescription="@string/imageView" />
+
+            <!-- creates the text box holding the name of the subject  -->
+            <TextView
+                android:id="@+id/acc_title"
+                android:layout_width="165dp"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_toEndOf="@+id/Frame_layout"
+                android:gravity="start"
+                android:textAlignment="textStart"
+                android:textColor="@android:color/white"
+                android:textColorHighlight="@android:color/white"
+                android:textColorLink="@android:color/white"
+                android:textSize="20sp"
+                android:textStyle="normal|bold" />
+<!--            -->
+            <FrameLayout
+                android:id="@+id/Frame_layout"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="6dp"
+                android:layout_marginRight="6dp">
+
+
+                <ImageView
+                    android:id="@+id/staff_icon"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:padding="6dp"
+                    android:contentDescription="@string/app_name" />
+
+                <ImageView
+                    android:id="@+id/frame1"
+                    android:src="@drawable/frame"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:contentDescription="@string/app_name" />
+
+            </FrameLayout>
+<!--            <ImageView-->
+<!--                android:id="@+id/staff_icon"-->
+<!--                app:srcCompat="@mipmap/ic_launcher"-->
+<!--                android:layout_width="75dp"-->
+<!--                android:layout_height="75dp"-->
+<!--                android:layout_centerVertical="true"-->
+<!--                android:layout_marginLeft="6dp"-->
+<!--                android:layout_marginRight="6dp"-->
+
+<!--                android:contentDescription="@string/imageView" />-->
+        </RelativeLayout>
+
+        <ListView
+            android:id="@+id/subject_list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/listBackground" />
+
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="135dp"
+        android:layout_height="135dp"
+        android:layout_marginTop="10dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" >
+
+        <ImageView
+            android:id="@+id/researchImage"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginBottom="25dp"
+            android:layout_gravity="center"
+            android:contentDescription="@string/subject_image"
+            android:scaleType="fitXY" />
+
+
+    </FrameLayout>
+<!--    <ImageView-->
+<!--        android:id="@+id/acc_icon"-->
+
+
+<!--        android:elevation="5dp"-->
+<!--        android:paddingTop="20dp"-->
+<!--        android:contentDescription="@string/imageView" />-->
+</RelativeLayout>

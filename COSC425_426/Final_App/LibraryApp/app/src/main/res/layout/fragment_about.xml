@@ -1,0 +1,76 @@
+<!--Revamped by Sam Disharoon 2020-->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="thelibrarians2.sulibraryapp.AboutFragment">
+
+    <!--fragment contains info on version no., copyright, and creator(s)-->
+    <!--calls icon image source to display-->
+
+    <ImageView
+        android:id="@+id/aboutIcon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:contentDescription="@string/app_name"
+        android:layout_marginTop="36dp"
+        android:src="@drawable/about_icon" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="36dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="5dp"
+        android:alpha=".8"
+        android:background="@drawable/custom_rounded_rectangle"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:padding="18dp"
+        android:textAlignment="center"> <!--Decreased margin size to
+        match the image's margin (36)-->
+
+        <!--version number-->
+        <!--Decreased Text Size by 1-->
+
+        <!--copyright date and owner-->
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:text="@string/about_school"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="16sp" /> <!--Decreased Text Size by 1 and updated copyright year-->
+
+        <!--creator contact info-->
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:text="@string/about_contact"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="16sp" /> <!--Decreased test size by 1-->
+
+        <!--Privacy button-->
+        <TextView
+            android:id="@+id/privacy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:text="@string/about_link"
+            android:textColor="@color/colorPrimary"
+            android:textSize="16sp" /> <!--Decreased Size by 1 and condensed Privacy string name-->
+    </LinearLayout>
+</LinearLayout>

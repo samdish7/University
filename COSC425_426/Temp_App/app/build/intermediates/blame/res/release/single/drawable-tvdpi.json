@@ -1,0 +1,266 @@
+[
+    {
+        "merged": "/Users/chriswoodall/Dropbox/Work Documents/Library App/SULibraryApp/app/build/intermediates/res/merged/release/drawable-tvdpi/common_plus_signin_btn_icon_light_focused.9.png",
+        "source": "/Users/chriswoodall/.android/build-cache/d96b093971f6a0d8557c273e2df09436241ba9eb/output/res/drawable-tvdpi/common_plus_signin_btn_icon_light_focused.9.png"
+    },
+    {
+        "merged": "/Users/chriswoodall/Dropbox/Work Documents/Library App/SULibraryApp/app/build/intermediates/res/merged/release/drawable-tvdpi/common_google_signin_btn_icon_light_pressed.9.png",
+        "source": "/Users/chriswoodall/.android/build-cache/d96b093971f6a0d8557c273e2df09436241ba9eb/output/res/drawable-tvdpi/common_google_signin_btn_icon_light_pressed.9.png"
+    },
+    {
+        "merged": "/Users/chriswoodall/Dropbox/Work Documents/Library App/SULibraryApp/app/build/intermediates/res/merged/release/drawable-tvdpi/common_google_signin_btn_text_light_normal.9.png",
+        "source": "/Users/chriswoodall/.android/build-cache/d96b093971f6a0d8557c273e2df09436241ba9eb/output/res/drawable-tvdpi/common_google_signin_btn_text_light_normal.9.png"
+    },
+    {
+        "merged": "/Users/chriswoodall/Dropbox/Work Documents/Library App/SULibraryApp/app/build/intermediates/res/merged/release/drawable-tvdpi/common_google_signin_btn_icon_dark_focused.9.png",
+        "source": "/Users/chriswoodall/.android/build-cache/d96b093971f6a0d8557c273e2df09436241ba9eb/output/res/drawable-tvdpi/common_google_signin_btn_icon_dark_focused.9.png"
+    },
+    {
+        "merged": "/Users/chriswoodall/Dropbox (Personal)/Work Documents/Library App/SULibraryApp/app/build/intermediates/res/merged/release/drawable-tvdpi/common_plus_signin_btn_icon_light_disabled.9.png",
+        "source": "/Users/chriswoodall/.android/build-cache/d96b093971f6a0d8557c273e2df09436241ba9eb/output/res/drawable-tvdpi/common_plus_signin_btn_icon_light_disabled.9.png"
+    },
+    {
+        "merged": "/Users/chriswoodall/Dropbox/Work Documents/Library App/SULibraryApp/app/build/intermediates/res/merged/release/drawable-tvdpi/common_google_signin_btn_text_light_disabled.9.png",
+        "source": "/Users/chriswoodall/.android/build-cache/d96b093971f6a0d8557c273e2df09436241ba9eb/output/res/drawable-tvdpi/common_google_signin_btn_text_light_disabled.9.png"
+    },
+    {
+        "merged": "/Users/chriswoodall/Dropbox/Work Documents/Library App/SULibraryApp/app/build/intermediates/res/merged/release/drawable-tvdpi/common_google_signin_btn_text_dark_disabled.9.png",
+        "source": "/Users/chriswoodall/.android/build-cache/d96b093971f6a0d8557c273e2df09436241ba9eb/output/res/drawable-tvdpi/common_google_signin_btn_text_dark_disabled.9.png"
+    },
+    {
+        "merged": "/Users/chriswoodall/Dropbox (Personal)/Work Documents/Library App/SULibraryApp/app/build/intermediates/res/merged/release/drawable-tvdpi/common_google_signin_btn_text_dark_normal.9.png",
+        "source": "/Users/chriswoodall/.android/build-cache/d96b093971f6a0d8557c273e2df09436241ba9eb/output/res/drawable-tvdpi/common_google_signin_btn_text_dark_normal.9.png"
+    },
+    {
+        "merged": "/Users/chriswoodall/Dropbox/Work Documents/Library App/SULibraryApp/app/build/intermediates/res/merged/release/drawable-tvdpi/common_google_signin_btn_text_dark_normal.9.png",
+        "source": "/Users/chriswoodall/.android/build-cache/d96b093971f6a0d8557c273e2df09436241ba9eb/output/res/drawable-tvdpi/common_google_signin_btn_text_dark_normal.9.png"
+    },
+    {
+        "merged": "/Users/chriswoodall/Dropbox/Work Documents/Library App/SULibraryApp/app/build/intermediates/res/merged/release/drawable-tvdpi/common_google_signin_btn_icon_dark_normal.9.png",
+        "source": "/Users/chriswoodall/.android/build-cache/d96b093971f6a0d8557c273e2df09436241ba9eb/output/res/drawable-tvdpi/common_google_signin_btn_icon_dark_normal.9.png"
+    },
+    {
+        "merged": "/Users/chriswoodall/Dropbox/Work Documents/Library App/SULibraryApp/app/build/intermediates/res/merged/release/drawable-tvdpi/common_google_signin_btn_text_dark_focused.9.png",
+        "source": "/Users/chriswoodall/.android/build-cache/d96b093971f6a0d8557c273e2df09436241ba9eb/output/res/drawable-tvdpi/common_google_signin_btn_text_dark_focused.9.png"
+    },
+    {
+        "merged": "/Users/chriswoodall/Dropbox (Personal)/Work Documents/Library App/SULibraryApp/app/build/intermediates/res/merged/release/drawable-tvdpi/common_plus_signin_btn_text_light_pressed.9.png",
+        "source": "/Users/chriswoodall/.android/build-cache/d96b093971f6a0d8557c273e2df09436241ba9eb/output/res/drawable-tvdpi/common_plus_signin_btn_text_light_pressed.9.png"
+    },
+    {
+        "merged": "/Users/chriswoodall/Dropbox (Personal)/Work Documents/Library App/SULibraryApp/app/build/intermediates/res/merged/release/drawable-tvdpi/common_google_signin_btn_text_light_pressed.9.png",
+        "source": "/Users/chriswoodall/.android/build-cache/d96b093971f6a0d8557c273e2df09436241ba9eb/output/res/drawable-tvdpi/common_google_signin_btn_text_light_pressed.9.png"
+    },
+    {
+        "merged": "/Users/chriswoodall/Dropbox (Personal)/Work Documents/Library App/SULibraryApp/app/build/intermediates/res/merged/release/drawable-tvdpi/common_google_signin_btn_icon_light_focused.9.png",
+        "source": "/Users/chriswoodall/.android/build-cache/d96b093971f6a0d8557c273e2df09436241ba9eb/output/res/drawable-tvdpi/common_google_signin_btn_icon_light_focused.9.png"
+    },
+    {
+        "merged": "/Users/chriswoodall/Dropbox (Personal)/Work Documents/Library App/SULibraryApp/app/build/intermediates/res/merged/release/drawable-tvdpi/common_plus_signin_btn_icon_dark_pressed.9.png",
+        "source": "/Users/chriswoodall/.android/build-cache/d96b093971f6a0d8557c273e2df09436241ba9eb/output/res/drawable-tvdpi/common_plus_signin_btn_icon_dark_pressed.9.png"
+    },
+    {
+        "merged": "/Users/chriswoodall/Dropbox/Work Documents/Library App/SULibraryApp/app/build/intermediates/res/merged/release/drawable-tvdpi/common_plus_signin_btn_text_light_pressed.9.png",
+        "source": "/Users/chriswoodall/.android/build-cache/d96b093971f6a0d8557c273e2df09436241ba9eb/output/res/drawable-tvdpi/common_plus_signin_btn_text_light_pressed.9.png"
+    },
+    {
+        "merged": "/Users/chriswoodall/Dropbox (Personal)/Work Documents/Library App/SULibraryApp/app/build/intermediates/res/merged/release/drawable-tvdpi/common_plus_signin_btn_text_light_focused.9.png",
+        "source": "/Users/chriswoodall/.android/build-cache/d96b093971f6a0d8557c273e2df09436241ba9eb/output/res/drawable-tvdpi/common_plus_signin_btn_text_light_focused.9.png"
+    },
+    {
+        "merged": "/Users/chriswoodall/Dropbox (Personal)/Work Documents/Library App/SULibraryApp/app/build/intermediates/res/merged/release/drawable-tvdpi/common_plus_signin_btn_text_dark_pressed.9.png",
+        "source": "/Users/chriswoodall/.android/build-cache/d96b093971f6a0d8557c273e2df09436241ba9eb/output/res/drawable-tvdpi/common_plus_signin_btn_text_dark_pressed.9.png"
+    },
+    {
+        "merged": "/Users/chriswoodall/Dropbox (Personal)/Work Documents/Library App/SULibraryApp/app/build/intermediates/res/merged/release/drawable-tvdpi/common_plus_signin_btn_icon_dark_disabled.9.png",
+        "source": "/Users/chriswoodall/.android/build-cache/d96b093971f6a0d8557c273e2df09436241ba9eb/output/res/drawable-tvdpi/common_plus_signin_btn_icon_dark_disabled.9.png"
+    },
+    {
+        "merged": "/Users/chriswoodall/Dropbox (Personal)/Work Documents/Library App/SULibraryApp/app/build/intermediates/res/merged/release/drawable-tvdpi/common_full_open_on_phone.png",
+        "source": "/Users/chriswoodall/.android/build-cache/d96b093971f6a0d8557c273e2df09436241ba9eb/output/res/drawable-tvdpi/common_full_open_on_phone.png"
+    },
+    {
+        "merged": "/Users/chriswoodall/Dropbox (Personal)/Work Documents/Library App/SULibraryApp/app/build/intermediates/res/merged/release/drawable-tvdpi/common_google_signin_btn_text_dark_disabled.9.png",
+        "source": "/Users/chriswoodall/.android/build-cache/d96b093971f6a0d8557c273e2df09436241ba9eb/output/res/drawable-tvdpi/common_google_signin_btn_text_dark_disabled.9.png"
+    },
+    {
+        "merged": "/Users/chriswoodall/Dropbox/Work Documents/Library App/SULibraryApp/app/build/intermediates/res/merged/release/drawable-tvdpi/common_full_open_on_phone.png",
+        "source": "/Users/chriswoodall/.android/build-cache/d96b093971f6a0d8557c273e2df09436241ba9eb/output/res/drawable-tvdpi/common_full_open_on_phone.png"
+    },
+    {
+        "merged": "/Users/chriswoodall/Dropbox (Personal)/Work Documents/Library App/SULibraryApp/app/build/intermediates/res/merged/release/drawable-tvdpi/common_google_signin_btn_icon_light_disabled.9.png",
+        "source": "/Users/chriswoodall/.android/build-cache/d96b093971f6a0d8557c273e2df09436241ba9eb/output/res/drawable-tvdpi/common_google_signin_btn_icon_light_disabled.9.png"
+    },
+    {
+        "merged": "/Users/chriswoodall/Dropbox/Work Documents/Library App/SULibraryApp/app/build/intermediates/res/merged/release/drawable-tvdpi/common_plus_signin_btn_text_light_disabled.9.png",
+        "source": "/Users/chriswoodall/.android/build-cache/d96b093971f6a0d8557c273e2df09436241ba9eb/output/res/drawable-tvdpi/common_plus_signin_btn_text_light_disabled.9.png"
+    },
+    {
+        "merged": "/Users/chriswoodall/Dropbox/Work Documents/Library App/SULibraryApp/app/build/intermediates/res/merged/release/drawable-tvdpi/common_google_signin_btn_text_dark_pressed.9.png",
+        "source": "/Users/chriswoodall/.android/build-cache/d96b093971f6a0d8557c273e2df09436241ba9eb/output/res/drawable-tvdpi/common_google_signin_btn_text_dark_pressed.9.png"
+    },
+    {
+        "merged": "/Users/chriswoodall/Dropbox/Work Documents/Library App/SULibraryApp/app/build/intermediates/res/merged/release/drawable-tvdpi/common_plus_signin_btn_icon_dark_focused.9.png",
+        "source": "/Users/chriswoodall/.android/build-cache/d96b093971f6a0d8557c273e2df09436241ba9eb/output/res/drawable-tvdpi/common_plus_signin_btn_icon_dark_focused.9.png"
+    },
+    {
+        "merged": "/Users/chriswoodall/Dropbox/Work Documents/Library App/SULibraryApp/app/build/intermediates/res/merged/release/drawable-tvdpi/common_google_signin_btn_text_light_focused.9.png",
+        "source": "/Users/chriswoodall/.android/build-cache/d96b093971f6a0d8557c273e2df09436241ba9eb/output/res/drawable-tvdpi/common_google_signin_btn_text_light_focused.9.png"
+    },
+    {
+        "merged": "/Users/chriswoodall/Dropbox (Personal)/Work Documents/Library App/SULibraryApp/app/build/intermediates/res/merged/release/drawable-tvdpi/common_google_signin_btn_text_dark_pressed.9.png",
+        "source": "/Users/chriswoodall/.android/build-cache/d96b093971f6a0d8557c273e2df09436241ba9eb/output/res/drawable-tvdpi/common_google_signin_btn_text_dark_pressed.9.png"
+    },
+    {
+        "merged": "/Users/chriswoodall/Dropbox/Work Documents/Library App/SULibraryApp/app/build/intermediates/res/merged/release/drawable-tvdpi/common_google_signin_btn_icon_dark_disabled.9.png",
+        "source": "/Users/chriswoodall/.android/build-cache/d96b093971f6a0d8557c273e2df09436241ba9eb/output/res/drawable-tvdpi/common_google_signin_btn_icon_dark_disabled.9.png"
+    },
+    {
+        "merged": "/Users/chriswoodall/Dropbox (Personal)/Work Documents/Library App/SULibraryApp/app/build/intermediates/res/merged/release/drawable-tvdpi/common_plus_signin_btn_icon_dark_normal.9.png",
+        "source": "/Users/chriswoodall/.android/build-cache/d96b093971f6a0d8557c273e2df09436241ba9eb/output/res/drawable-tvdpi/common_plus_signin_btn_icon_dark_normal.9.png"
+    },
+    {
+        "merged": "/Users/chriswoodall/Dropbox (Personal)/Work Documents/Library App/SULibraryApp/app/build/intermediates/res/merged/release/drawable-tvdpi/common_google_signin_btn_icon_dark_pressed.9.png",
+        "source": "/Users/chriswoodall/.android/build-cache/d96b093971f6a0d8557c273e2df09436241ba9eb/output/res/drawable-tvdpi/common_google_signin_btn_icon_dark_pressed.9.png"
+    },
+    {
+        "merged": "/Users/chriswoodall/Dropbox (Personal)/Work Documents/Library App/SULibraryApp/app/build/intermediates/res/merged/release/drawable-tvdpi/common_google_signin_btn_icon_dark_disabled.9.png",
+        "source": "/Users/chriswoodall/.android/build-cache/d96b093971f6a0d8557c273e2df09436241ba9eb/output/res/drawable-tvdpi/common_google_signin_btn_icon_dark_disabled.9.png"
+    },
+    {
+        "merged": "/Users/chriswoodall/Dropbox (Personal)/Work Documents/Library App/SULibraryApp/app/build/intermediates/res/merged/release/drawable-tvdpi/common_plus_signin_btn_text_light_disabled.9.png",
+        "source": "/Users/chriswoodall/.android/build-cache/d96b093971f6a0d8557c273e2df09436241ba9eb/output/res/drawable-tvdpi/common_plus_signin_btn_text_light_disabled.9.png"
+    },
+    {
+        "merged": "/Users/chriswoodall/Dropbox (Personal)/Work Documents/Library App/SULibraryApp/app/build/intermediates/res/merged/release/drawable-tvdpi/common_plus_signin_btn_icon_light_pressed.9.png",
+        "source": "/Users/chriswoodall/.android/build-cache/d96b093971f6a0d8557c273e2df09436241ba9eb/output/res/drawable-tvdpi/common_plus_signin_btn_icon_light_pressed.9.png"
+    },
+    {
+        "merged": "/Users/chriswoodall/Dropbox (Personal)/Work Documents/Library App/SULibraryApp/app/build/intermediates/res/merged/release/drawable-tvdpi/common_plus_signin_btn_text_dark_focused.9.png",
+        "source": "/Users/chriswoodall/.android/build-cache/d96b093971f6a0d8557c273e2df09436241ba9eb/output/res/drawable-tvdpi/common_plus_signin_btn_text_dark_focused.9.png"
+    },
+    {
+        "merged": "/Users/chriswoodall/Dropbox (Personal)/Work Documents/Library App/SULibraryApp/app/build/intermediates/res/merged/release/drawable-tvdpi/common_plus_signin_btn_text_dark_disabled.9.png",
+        "source": "/Users/chriswoodall/.android/build-cache/d96b093971f6a0d8557c273e2df09436241ba9eb/output/res/drawable-tvdpi/common_plus_signin_btn_text_dark_disabled.9.png"
+    },
+    {
+        "merged": "/Users/chriswoodall/Dropbox/Work Documents/Library App/SULibraryApp/app/build/intermediates/res/merged/release/drawable-tvdpi/common_plus_signin_btn_text_light_normal.9.png",
+        "source": "/Users/chriswoodall/.android/build-cache/d96b093971f6a0d8557c273e2df09436241ba9eb/output/res/drawable-tvdpi/common_plus_signin_btn_text_light_normal.9.png"
+    },
+    {
+        "merged": "/Users/chriswoodall/Dropbox (Personal)/Work Documents/Library App/SULibraryApp/app/build/intermediates/res/merged/release/drawable-tvdpi/common_plus_signin_btn_icon_light_normal.9.png",
+        "source": "/Users/chriswoodall/.android/build-cache/d96b093971f6a0d8557c273e2df09436241ba9eb/output/res/drawable-tvdpi/common_plus_signin_btn_icon_light_normal.9.png"
+    },
+    {
+        "merged": "/Users/chriswoodall/Dropbox/Work Documents/Library App/SULibraryApp/app/build/intermediates/res/merged/release/drawable-tvdpi/common_plus_signin_btn_icon_dark_disabled.9.png",
+        "source": "/Users/chriswoodall/.android/build-cache/d96b093971f6a0d8557c273e2df09436241ba9eb/output/res/drawable-tvdpi/common_plus_signin_btn_icon_dark_disabled.9.png"
+    },
+    {
+        "merged": "/Users/chriswoodall/Dropbox (Personal)/Work Documents/Library App/SULibraryApp/app/build/intermediates/res/merged/release/drawable-tvdpi/common_google_signin_btn_text_light_focused.9.png",
+        "source": "/Users/chriswoodall/.android/build-cache/d96b093971f6a0d8557c273e2df09436241ba9eb/output/res/drawable-tvdpi/common_google_signin_btn_text_light_focused.9.png"
+    },
+    {
+        "merged": "/Users/chriswoodall/Dropbox/Work Documents/Library App/SULibraryApp/app/build/intermediates/res/merged/release/drawable-tvdpi/common_plus_signin_btn_icon_light_pressed.9.png",
+        "source": "/Users/chriswoodall/.android/build-cache/d96b093971f6a0d8557c273e2df09436241ba9eb/output/res/drawable-tvdpi/common_plus_signin_btn_icon_light_pressed.9.png"
+    },
+    {
+        "merged": "/Users/chriswoodall/Dropbox (Personal)/Work Documents/Library App/SULibraryApp/app/build/intermediates/res/merged/release/drawable-tvdpi/common_plus_signin_btn_text_dark_normal.9.png",
+        "source": "/Users/chriswoodall/.android/build-cache/d96b093971f6a0d8557c273e2df09436241ba9eb/output/res/drawable-tvdpi/common_plus_signin_btn_text_dark_normal.9.png"
+    },
+    {
+        "merged": "/Users/chriswoodall/Dropbox/Work Documents/Library App/SULibraryApp/app/build/intermediates/res/merged/release/drawable-tvdpi/common_google_signin_btn_icon_dark_pressed.9.png",
+        "source": "/Users/chriswoodall/.android/build-cache/d96b093971f6a0d8557c273e2df09436241ba9eb/output/res/drawable-tvdpi/common_google_signin_btn_icon_dark_pressed.9.png"
+    },
+    {
+        "merged": "/Users/chriswoodall/Dropbox/Work Documents/Library App/SULibraryApp/app/build/intermediates/res/merged/release/drawable-tvdpi/common_plus_signin_btn_text_light_focused.9.png",
+        "source": "/Users/chriswoodall/.android/build-cache/d96b093971f6a0d8557c273e2df09436241ba9eb/output/res/drawable-tvdpi/common_plus_signin_btn_text_light_focused.9.png"
+    },
+    {
+        "merged": "/Users/chriswoodall/Dropbox/Work Documents/Library App/SULibraryApp/app/build/intermediates/res/merged/release/drawable-tvdpi/common_plus_signin_btn_text_dark_pressed.9.png",
+        "source": "/Users/chriswoodall/.android/build-cache/d96b093971f6a0d8557c273e2df09436241ba9eb/output/res/drawable-tvdpi/common_plus_signin_btn_text_dark_pressed.9.png"
+    },
+    {
+        "merged": "/Users/chriswoodall/Dropbox/Work Documents/Library App/SULibraryApp/app/build/intermediates/res/merged/release/drawable-tvdpi/common_plus_signin_btn_text_dark_normal.9.png",
+        "source": "/Users/chriswoodall/.android/build-cache/d96b093971f6a0d8557c273e2df09436241ba9eb/output/res/drawable-tvdpi/common_plus_signin_btn_text_dark_normal.9.png"
+    },
+    {
+        "merged": "/Users/chriswoodall/Dropbox/Work Documents/Library App/SULibraryApp/app/build/intermediates/res/merged/release/drawable-tvdpi/common_plus_signin_btn_text_dark_disabled.9.png",
+        "source": "/Users/chriswoodall/.android/build-cache/d96b093971f6a0d8557c273e2df09436241ba9eb/output/res/drawable-tvdpi/common_plus_signin_btn_text_dark_disabled.9.png"
+    },
+    {
+        "merged": "/Users/chriswoodall/Dropbox/Work Documents/Library App/SULibraryApp/app/build/intermediates/res/merged/release/drawable-tvdpi/common_plus_signin_btn_text_dark_focused.9.png",
+        "source": "/Users/chriswoodall/.android/build-cache/d96b093971f6a0d8557c273e2df09436241ba9eb/output/res/drawable-tvdpi/common_plus_signin_btn_text_dark_focused.9.png"
+    },
+    {
+        "merged": "/Users/chriswoodall/Dropbox/Work Documents/Library App/SULibraryApp/app/build/intermediates/res/merged/release/drawable-tvdpi/common_plus_signin_btn_icon_light_normal.9.png",
+        "source": "/Users/chriswoodall/.android/build-cache/d96b093971f6a0d8557c273e2df09436241ba9eb/output/res/drawable-tvdpi/common_plus_signin_btn_icon_light_normal.9.png"
+    },
+    {
+        "merged": "/Users/chriswoodall/Dropbox (Personal)/Work Documents/Library App/SULibraryApp/app/build/intermediates/res/merged/release/drawable-tvdpi/common_plus_signin_btn_icon_dark_focused.9.png",
+        "source": "/Users/chriswoodall/.android/build-cache/d96b093971f6a0d8557c273e2df09436241ba9eb/output/res/drawable-tvdpi/common_plus_signin_btn_icon_dark_focused.9.png"
+    },
+    {
+        "merged": "/Users/chriswoodall/Dropbox/Work Documents/Library App/SULibraryApp/app/build/intermediates/res/merged/release/drawable-tvdpi/common_plus_signin_btn_icon_light_disabled.9.png",
+        "source": "/Users/chriswoodall/.android/build-cache/d96b093971f6a0d8557c273e2df09436241ba9eb/output/res/drawable-tvdpi/common_plus_signin_btn_icon_light_disabled.9.png"
+    },
+    {
+        "merged": "/Users/chriswoodall/Dropbox (Personal)/Work Documents/Library App/SULibraryApp/app/build/intermediates/res/merged/release/drawable-tvdpi/common_google_signin_btn_text_light_disabled.9.png",
+        "source": "/Users/chriswoodall/.android/build-cache/d96b093971f6a0d8557c273e2df09436241ba9eb/output/res/drawable-tvdpi/common_google_signin_btn_text_light_disabled.9.png"
+    },
+    {
+        "merged": "/Users/chriswoodall/Dropbox (Personal)/Work Documents/Library App/SULibraryApp/app/build/intermediates/res/merged/release/drawable-tvdpi/common_google_signin_btn_text_light_normal.9.png",
+        "source": "/Users/chriswoodall/.android/build-cache/d96b093971f6a0d8557c273e2df09436241ba9eb/output/res/drawable-tvdpi/common_google_signin_btn_text_light_normal.9.png"
+    },
+    {
+        "merged": "/Users/chriswoodall/Dropbox (Personal)/Work Documents/Library App/SULibraryApp/app/build/intermediates/res/merged/release/drawable-tvdpi/common_google_signin_btn_icon_light_pressed.9.png",
+        "source": "/Users/chriswoodall/.android/build-cache/d96b093971f6a0d8557c273e2df09436241ba9eb/output/res/drawable-tvdpi/common_google_signin_btn_icon_light_pressed.9.png"
+    },
+    {
+        "merged": "/Users/chriswoodall/Dropbox (Personal)/Work Documents/Library App/SULibraryApp/app/build/intermediates/res/merged/release/drawable-tvdpi/common_google_signin_btn_icon_light_normal.9.png",
+        "source": "/Users/chriswoodall/.android/build-cache/d96b093971f6a0d8557c273e2df09436241ba9eb/output/res/drawable-tvdpi/common_google_signin_btn_icon_light_normal.9.png"
+    },
+    {
+        "merged": "/Users/chriswoodall/Dropbox/Work Documents/Library App/SULibraryApp/app/build/intermediates/res/merged/release/drawable-tvdpi/common_plus_signin_btn_icon_dark_pressed.9.png",
+        "source": "/Users/chriswoodall/.android/build-cache/d96b093971f6a0d8557c273e2df09436241ba9eb/output/res/drawable-tvdpi/common_plus_signin_btn_icon_dark_pressed.9.png"
+    },
+    {
+        "merged": "/Users/chriswoodall/Dropbox (Personal)/Work Documents/Library App/SULibraryApp/app/build/intermediates/res/merged/release/drawable-tvdpi/common_google_signin_btn_icon_dark_normal.9.png",
+        "source": "/Users/chriswoodall/.android/build-cache/d96b093971f6a0d8557c273e2df09436241ba9eb/output/res/drawable-tvdpi/common_google_signin_btn_icon_dark_normal.9.png"
+    },
+    {
+        "merged": "/Users/chriswoodall/Dropbox/Work Documents/Library App/SULibraryApp/app/build/intermediates/res/merged/release/drawable-tvdpi/common_google_signin_btn_icon_light_normal.9.png",
+        "source": "/Users/chriswoodall/.android/build-cache/d96b093971f6a0d8557c273e2df09436241ba9eb/output/res/drawable-tvdpi/common_google_signin_btn_icon_light_normal.9.png"
+    },
+    {
+        "merged": "/Users/chriswoodall/Dropbox (Personal)/Work Documents/Library App/SULibraryApp/app/build/intermediates/res/merged/release/drawable-tvdpi/common_plus_signin_btn_icon_light_focused.9.png",
+        "source": "/Users/chriswoodall/.android/build-cache/d96b093971f6a0d8557c273e2df09436241ba9eb/output/res/drawable-tvdpi/common_plus_signin_btn_icon_light_focused.9.png"
+    },
+    {
+        "merged": "/Users/chriswoodall/Dropbox (Personal)/Work Documents/Library App/SULibraryApp/app/build/intermediates/res/merged/release/drawable-tvdpi/common_google_signin_btn_text_dark_focused.9.png",
+        "source": "/Users/chriswoodall/.android/build-cache/d96b093971f6a0d8557c273e2df09436241ba9eb/output/res/drawable-tvdpi/common_google_signin_btn_text_dark_focused.9.png"
+    },
+    {
+        "merged": "/Users/chriswoodall/Dropbox/Work Documents/Library App/SULibraryApp/app/build/intermediates/res/merged/release/drawable-tvdpi/common_google_signin_btn_icon_light_disabled.9.png",
+        "source": "/Users/chriswoodall/.android/build-cache/d96b093971f6a0d8557c273e2df09436241ba9eb/output/res/drawable-tvdpi/common_google_signin_btn_icon_light_disabled.9.png"
+    },
+    {
+        "merged": "/Users/chriswoodall/Dropbox (Personal)/Work Documents/Library App/SULibraryApp/app/build/intermediates/res/merged/release/drawable-tvdpi/common_google_signin_btn_icon_dark_focused.9.png",
+        "source": "/Users/chriswoodall/.android/build-cache/d96b093971f6a0d8557c273e2df09436241ba9eb/output/res/drawable-tvdpi/common_google_signin_btn_icon_dark_focused.9.png"
+    },
+    {
+        "merged": "/Users/chriswoodall/Dropbox/Work Documents/Library App/SULibraryApp/app/build/intermediates/res/merged/release/drawable-tvdpi/common_google_signin_btn_text_light_pressed.9.png",
+        "source": "/Users/chriswoodall/.android/build-cache/d96b093971f6a0d8557c273e2df09436241ba9eb/output/res/drawable-tvdpi/common_google_signin_btn_text_light_pressed.9.png"
+    },
+    {
+        "merged": "/Users/chriswoodall/Dropbox/Work Documents/Library App/SULibraryApp/app/build/intermediates/res/merged/release/drawable-tvdpi/common_plus_signin_btn_icon_dark_normal.9.png",
+        "source": "/Users/chriswoodall/.android/build-cache/d96b093971f6a0d8557c273e2df09436241ba9eb/output/res/drawable-tvdpi/common_plus_signin_btn_icon_dark_normal.9.png"
+    },
+    {
+        "merged": "/Users/chriswoodall/Dropbox/Work Documents/Library App/SULibraryApp/app/build/intermediates/res/merged/release/drawable-tvdpi/common_google_signin_btn_icon_light_focused.9.png",
+        "source": "/Users/chriswoodall/.android/build-cache/d96b093971f6a0d8557c273e2df09436241ba9eb/output/res/drawable-tvdpi/common_google_signin_btn_icon_light_focused.9.png"
+    },
+    {
+        "merged": "/Users/chriswoodall/Dropbox (Personal)/Work Documents/Library App/SULibraryApp/app/build/intermediates/res/merged/release/drawable-tvdpi/common_plus_signin_btn_text_light_normal.9.png",
+        "source": "/Users/chriswoodall/.android/build-cache/d96b093971f6a0d8557c273e2df09436241ba9eb/output/res/drawable-tvdpi/common_plus_signin_btn_text_light_normal.9.png"
+    }
+]
