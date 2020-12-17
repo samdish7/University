@@ -5,7 +5,7 @@ Instructor ~> Dr. Joseph Anderson
 
 Year ~> Fall 2019
 
-## Langauges Used;
+## Languages Used;
 
 **C++**
 
