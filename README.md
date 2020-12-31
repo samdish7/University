@@ -11,4 +11,4 @@ This repository holds all my Labs/Notes/Projects/Misc. from my years at Salisbur
 	* COSC350 ~> Systems Software
 	* COSC386 ~> Database Design & Implementation
 	* COSC420 ~> Hi-Performace Computing
-	* COSC425/426 ~> Software Engieneering (Full year) ~> SU-Library-App
+	* COSC425/426 ~> Software Engieneering (Full year) ~> [SU-Library-App](https://github.com/samdish7/SU_Library_App)
