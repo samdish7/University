@@ -6,9 +6,12 @@ This repository holds all my Labs/Notes/Projects/Misc. from my years at Salisbur
 
 ### Relevent Courses Taken
 
+	* COSC117 ~> Programming Fundamentals
 	* COSC220 ~> Computer Science II
 	* COSC320 ~> Advanced Data Structures & Algorithms
 	* COSC350 ~> Systems Software
 	* COSC386 ~> Database Design & Implementation
 	* COSC420 ~> Hi-Performace Computing
 	* COSC425/426 ~> Software Engieneering (Full year) ~> SU-Library-App
+
+[Link to COSC425/426 work](https://github.com/samdish7/SU_Library_App)
