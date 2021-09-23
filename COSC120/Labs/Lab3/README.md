@@ -6,7 +6,7 @@ README for lab 3, written in 2021 :grinning:
 
 This program displays a simple menu asking the user what they would beverage they would like to order. Once a beverage is chosen, asks the quantity, then displays total cost. Repeats until user opts to exit. 
 
-**BUGS FOUND ~> **Entering something other than the choices given may result in multiple runs of the program or an infinite loop as there is no error checking. Didn't know what that was back then :poop:.
+**BUGS FOUND ~> **  Entering something other than the choices given may result in multiple runs of the program or an infinite loop as there is no error checking. Didn't know what that was back then :poop:.
 
 _Exhibit A ~>_ The input "rrr" will iterate the menu 3 times before asking the user for another input.
 
