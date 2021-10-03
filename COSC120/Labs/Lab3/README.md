@@ -6,7 +6,9 @@ README for lab 3, written in 2021 :grinning:
 
 This program displays a simple menu asking the user what they would beverage they would like to order. Once a beverage is chosen, asks the quantity, then displays total cost. Repeats until user opts to exit. 
 
-**BUGS FOUND ~> **  Entering something other than the choices given may result in multiple runs of the program or an infinite loop as there is no error checking. Didn't know what that was back then :poop:.
+### Bugs
+  
+Entering something other than the choices given may result in multiple runs of the program or an infinite loop as there is no error checking. Didn't know what that was back then :poop:.
 
 _Exhibit A ~>_ The input "rrr" will iterate the menu 3 times before asking the user for another input.
 
@@ -22,7 +24,9 @@ _Exhibit D ~>_ The input "rrra" will cause the menu to iterate 4 times, with the
 
 This program asks the user for two integers, and displays the mean of the two. Simple as that.
 
-**BUGS FOUND ~> **Entering a positive number, and then a number lower will give the result "nan". There is validation of negative integers, but only at the end. 0 is not valid either.
+### Bugs
+	
+Entering a positive number, and then a number lower will give the result "nan". There is validation of negative integers, but only at the end. 0 is not valid either.
 
 _Exhibit A ~>_ Input 1: 6; Input 2: 5; This will result in:
 
@@ -30,5 +34,14 @@ _Exhibit A ~>_ Input 1: 6; Input 2: 5; This will result in:
 
 _Exhibit B ~>_ If input 1 is negative, it will allow the user to give input 2, then tell you it is invalid.
 
-_Exhibit C ~>_ 
+_Exhibit C ~>_ Any combination of letters will result in the program finishing and then displaying the invalid message
 
+## Nested
+
+This program displays the functionality of nested for loops by asking the user about student study habits for two subjects; Biology and Computer Science. After giving the number of students and number of days studied. 
+
+### Bugs
+
+If you enter the same amount of hours for each subject, it will default to say "programming" was studied the most. Pretty sure I was biased in that regard but still :)
+
+Other bugs include the typical typing in letters/words for inputs will cause crashes or infinite loops.
