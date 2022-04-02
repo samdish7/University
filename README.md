@@ -22,13 +22,3 @@ This repository holds all my Labs/Notes/Projects/Misc. from my years at Salisbur
 
 	* COSC 362 ~> Theory of Computation
 	* COSC 450 ~> Operating Systems
-
-#### Note
-
-I have seperate repos for courses I used github for. They have the same material as the ones in here, but I see no need to get rid of them because they served a good purpose, and are some of the more lab heavy courses at SU. They also are not modified at all, so it also shows how I structured them when I took them and gives a little insight on the growth I've gone through regarding my organization. The links are given below.
-
-* [COSC 117](https://github.com/samdish7/COSC117)
-* [COSC 220](https://github.com/samdish7/COSC220)
-* [COSC 320](https://github.com/samdish7/COSC320)
-* [COSC 350](https://github.com/samdish7/COSC350)
-* [COSC 420](https://github.com/samdish7/COSC420)
