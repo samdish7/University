@@ -22,3 +22,7 @@ This repository holds all my Labs/Notes/Projects/Misc. from my years at Salisbur
 
 	* COSC 362 ~> Theory of Computation
 	* COSC 450 ~> Operating Systems
+
+# Side note
+
+This is meant to be an amusing take on the journey I took throughout my college career. My goal here is to go back through all of my coursework and attempt to dissect what I was attempting to do with the code I have created. I'm going for a slightly light-lighthearted take to this repo, so hopefully I provide a few laughs/chuckles for ya! :smile:
