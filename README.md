@@ -1,5 +1,7 @@
 # University Work; Fall 2016 ~> Fall 2021
 
+Began on Oct. 23rd, 2020. Last update ~> June 14th 2022
+
 ## Description
 
 This repository holds all my Labs/Notes/Projects/Misc. from my years at Salisbury University.  I majored in Computer Science and minored in Mathematics. 
