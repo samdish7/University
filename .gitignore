@@ -8,3 +8,6 @@
 *.pdf
 *.docx
 *.DOCX
+
+# All non-code
+COSC120/Labs/Lab10

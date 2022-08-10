@@ -1,6 +1,6 @@
 # Lab 11 COSC 120; Sam Disharoon
 
-Lab 9 for COSC 120, written in 2022 :grinning:
+Lab 11 for COSC 120, written in 2022 :grinning:
 
 ## Arr_struct
 
