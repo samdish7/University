@@ -6,16 +6,18 @@ Began on Oct. 23rd, 2020. Last update ~> August 23rd 2022
 
 This repository holds all my Labs/Notes/Projects/Misc. from my years at Salisbury University.  I majored in Computer Science and minored in Mathematics. 
 
-### Relevent Courses Taken
+### Relevent Courses Taken 
+
+_(Links are provided for repos I've kept public, my overviews will be conducted there)_
 
 	* COSC117 ~> Programming Fundamentals (Work shown is work as a tutor)
 	* COSC120 ~> Computer Science I
 	* COSC220 ~> Computer Science II
-	* COSC311 ~> Introduction to Data Visualization & Interpretation
+	* [COSC311](https://github.com/samdish7/COSC311) ~> Introduction to Data Visualization & Interpretation
 	* COSC320 ~> Advanced Data Structures & Algorithms
 	* COSC350 ~> Systems Software
 	* COSC386 ~> Database Design & Implementation
-	* COSC420 ~> Hi-Performace Computing
+	* [COSC420](https://github.com/samdish7/COSC420) ~> Hi-Performace Computing
 	* COSC425/426 ~> Software Engieneering (Full year) ~> SU-Library-App
 
 [Link to COSC425/426 work](https://github.com/samdish7/SU_Library_App)
@@ -25,6 +27,6 @@ This repository holds all my Labs/Notes/Projects/Misc. from my years at Salisbur
 	* COSC 362 ~> Theory of Computation
 	* COSC 450 ~> Operating Systems
 
-# Side note
+## Side note
 
 This is meant to be an amusing take on the journey I took throughout my college career. My goal here is to go back through all of my coursework and attempt to dissect what I was attempting to do with the code I have created. I'm going for a slightly light-lighthearted take to this repo, so hopefully I provide a few laughs/chuckles for ya! :smile:
