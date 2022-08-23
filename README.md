@@ -1,6 +1,6 @@
-# University Work; Fall 2016 ~> Fall 2021
+# University Work; Fall 2016 - Fall 2021
 
-Began on Oct. 23rd, 2020. Last update ~> June 14th 2022
+Began on Oct. 23rd, 2020. Last update ~> August 23rd 2022
 
 ## Description
 
