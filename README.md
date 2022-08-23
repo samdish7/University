@@ -8,19 +8,20 @@ This repository holds all my Labs/Notes/Projects/Misc. from my years at Salisbur
 
 ### Relevent Courses Taken 
 
-_(Links are provided for repos I've kept public, my overviews will be conducted there)_
 
 	* COSC117 ~> Programming Fundamentals (Work shown is work as a tutor)
 	* COSC120 ~> Computer Science I
 	* COSC220 ~> Computer Science II
-	* [COSC311](https://github.com/samdish7/COSC311) ~> Introduction to Data Visualization & Interpretation
+    * COSC311 ~> Introduction to Data Visualization & Interpretation
 	* COSC320 ~> Advanced Data Structures & Algorithms
 	* COSC350 ~> Systems Software
 	* COSC386 ~> Database Design & Implementation
-	* [COSC420](https://github.com/samdish7/COSC420) ~> Hi-Performace Computing
+    * COSC420 ~> Hi-Performace Computing
 	* COSC425/426 ~> Software Engieneering (Full year) ~> SU-Library-App
 
-[Link to COSC425/426 work](https://github.com/samdish7/SU_Library_App)
+_(Links are provided for repos I've kept public, my overviews will be conducted there. These remain public because other's have forked/starred them.)_
+
+[COSC311](https://github.com/samdish7/COSC311) ||| [COSC420](https://github.com/samdish7/COSC420) ||| [COSC425/426](https://github.com/samdish7/SU_Library_App)
 
 ### Other Non-Lab Relavent Courses Taken
 
