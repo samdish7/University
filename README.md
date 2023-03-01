@@ -30,4 +30,4 @@ _(Links are provided for repos I've kept public, my overviews will be conducted 
 
 ## Side note
 
-This is meant to be an amusing take on the journey I took throughout my college career. My goal here is to go back through all of my coursework and attempt to dissect what I was attempting to do with the code I have created. I'm going for a slightly light-lighthearted take to this repo, plus I will commit to going over 1 class every so often, that way I can get more experinence as a developer therefore being able to roast my own code even more. Hopefully I provide a few laughs/chuckles for ya! :smile:
+This is meant to be an amusing take on the journey I took throughout my college career. My goal here is to go back through all of my coursework and attempt to dissect what I was attempting to do with the code I have created. I'm going for a slightly light-lighthearted take to this repo, plus I will commit to going over 1 class every so often, that way I can get more experience as a developer therefore being able to roast my own code even more. Hopefully I provide a few laughs/chuckles for ya! :smile:
