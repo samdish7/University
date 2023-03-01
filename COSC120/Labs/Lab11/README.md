@@ -1,6 +1,6 @@
 # Lab 11 COSC 120; Sam Disharoon
 
-Lab 11 for COSC 120, written in 2022 :grinning:
+*README written in 2022* :grinning:
 
 ## Arr_struct
 
@@ -17,3 +17,9 @@ This is a more simple version of __NestedRect__. It does the same thing, but als
 ### Bugs/Improvements 
 
 - All three programs have the same issues considering they are similar in nature. Anything other than valid input will render the program useless. No error checking at all and everything about the code can be greatly condensed
+
+## Feedback
+
+Getting into the nitty-gritty, the code is definetly not optimized but that is to be expected due to it being my first college programming class. No **input validation** but that is to be expected per the theme of these programs. Better than the past few labs though. 
+
+***Overall Rating: 7/10***

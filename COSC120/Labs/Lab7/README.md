@@ -1,6 +1,6 @@
 # Lab 7 COSC 120; Sam Disharoon
 
-README for lab 7, written in 2022 :grinning:
+*README written in 2022* :grinning:
 
 ## Student
 
@@ -22,3 +22,9 @@ This program allows the user to demonstrate function and array usage. It will as
 ## Source,cpp
 
 Literally just a basic program that displays *Hello*. No clue why it is here.
+
+## Feedback
+
+Slighty better than Lab 6, but not by much. An attempt at **input validation** was made, although falls very short of what it should do. Segfaults appear in this lab meaning I didn't know how to handle arrays properly. Also appears to have referenced someone else's work, but cannot confirm. Either way, another dissapointing lab. Also *Source* is a useless program.
+
+***Overall Rating: 3.75/10***

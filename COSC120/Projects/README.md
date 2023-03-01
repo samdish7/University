@@ -1,6 +1,6 @@
 # Projects COSC 120; Sam Disharoon
 
-All 4 projects for COSC120, written in 2022 :grinning:
+*README for all 4 projects, written in 2022* :grinning:
 
 ## Project 1; Dice Game
 
@@ -11,12 +11,12 @@ This program simulates a little dice game! It lists asks you for your name, allo
 ### Bugs/Improvements
 
 - Make the rules easier to read.
-- Allow the player to roll instead of having them roll for us.
+- Allow the player to roll instead of having the program roll for us.
 - Can input anything as a name, which isn't ideal, but not really a bug either.
 
 ## Project 2; Book Store Sales
 
-This program demonstrates how to read info from a file and splay it on screen. It failes MISERABLY at this. The program doesn't crash, but it may as well. The goal appears to be a sales report for a book store. Attempting to perform a few calulations based off of the given input such as the highest/lowest number per month, as well as the total for each month. It also displays the total number of books sold by the store for that year.
+This program demonstrates how to read info from a file and display it on screen. It fails MISERABLY at this. The program doesn't crash, but it may as well. The goal appears to be a sales report for a book store. Attempting to perform a few calulations based off of the given input such as the highest/lowest number per month, as well as the total for each month. It also displays the total number of books sold by the store for that year.
 
 ### Bugs/Improvements
 
@@ -45,3 +45,12 @@ As stated above, not bad but could use a tremendous amount of optimization. For 
 - Found a :boom: where if you try to add a patient fee, it doesn't do anything or prompt you for anything, and if you enter a letter, it will crash and burn.
 - __ADD INPUT VALIDATION FOR ONCE IN YOUR LIFE__. Can crash this by entering nonsense.
 - Sort isn't implemented.
+
+## Feedback
+
+Refer to the table below:
+
+| |Dice Game|Book Store Sales|Grades|Hospital Bill|
+|-|---------|----------------|------|-------------|
+|***Overall Rating***|***8.5/10***|***3/10***|***0/10***|***6/10***|
+|Feedback|By far the best project in this group. Just needs some UI improvements but really good overall|Huge drop in quality of code here, but on the bright side, at least it isn't *Grades*...|I gave this a 0/10, do I really need to explain myself here?|Couldn't get much worse than *Grades*, and the functionality is almost all there, but still has much to be desired.|

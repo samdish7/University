@@ -14,7 +14,7 @@ I have removed the .odt lab sheet and formatted it below for all to see. *No mod
 
 |OutPut|Output 2|Scrolling through the terminal|
 |------|--------|------------------------------|
-|How many numbers would you like?|dish@dish-VirtualBox:~/Documents/COSC220$ ls|
+|How many numbers would you like?|How many numbers would you like?|dish@dish-VirtualBox:~/Documents/COSC220$ ls|
 |2|5|a.out  arrays.cpp|
 |Enter a number: 4|Enter a number: 82|dish@dish-VirtualBox:~/Documents/COSC220$ cd ..|
 |Enter a number: 7|Enter a number: 19|dish@dish-VirtualBox:~/Documents$ cd ..|

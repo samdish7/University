@@ -1,6 +1,6 @@
 # Lab 13 COSC 120; Sam Disharoon
 
-Lab 13 for COSC120, written in 2022 :grinning:
+*README written in 2022* :grinning:
 
 ## CopyCon
 
@@ -19,3 +19,9 @@ This program is supposedly here to demonstrate classes as well. Along with the _
 -__CopyCon__ seems to work well, I would have just renamed it though and made the objects a little more different so they are easier read.
 - __Sales__ needs error checking and input validation.
 - __Savings__ needs to figure out how to use static.
+
+## Feedback
+
+Again, quality keeps improving, so that is a plus. Although I don't think *Savings* actually does what the lab instructions intended it to do due to not using static correctly. Still they all at least work for the most part.
+
+***Overall Rating: 8/10***

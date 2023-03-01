@@ -1,6 +1,6 @@
 # Lab 9 COSC 120; Sam Disharoon
 
-Lab 9 for COSC 120, written in 2022 :grinning:
+*README written in 2022* :grinning:
 
 ## Case_Conversion 
 
@@ -8,7 +8,7 @@ Demonstrates using **iomanip** by asking the user for 4 weeks worth of food cost
 
 ### Bugs/Improvements
 
-- Like all previous labs, no input validation. So decimals/letters will cause an infinite loop. 
+- Like most previous labs, no input validation. So decimals/letters will cause an infinite loop. 
 - Inputs for exiting are flipped. Y will cancel the program and n will keep it going.
 
 ## Equities
@@ -29,4 +29,10 @@ This is supposed to read from the file __grades.txt__ and output the contents of
 
 ### Bugs/Improvements
 
-Welp, for starters, make the damn thing run. If you try and execute this program, it will run infintly. So that's a plus!
+Welp, for starters, make the damn thing run. If you try and execute this program, it will run infinitely. So that's a plus!
+
+## Feedback
+
+Not great, *Case_Conversion & Equities* work decently, *Consonants* only works with lowercase letters, so that isn't ideal. *Grades* is comical.
+
+***Overall Rating: 5/10***

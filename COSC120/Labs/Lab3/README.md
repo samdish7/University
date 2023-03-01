@@ -1,6 +1,6 @@
 # Lab 3 COSC 120; Sam Disharoon
 
-README for lab 3, written in 2021 :grinning:
+*README written in 2021* :grinning:
 
 ## Beverage
 
@@ -45,3 +45,9 @@ This program displays the functionality of nested for loops by asking the user a
 If you enter the same amount of hours for each subject, it will default to say "programming" was studied the most. Pretty sure I was biased in that regard but still :)
 
 Other bugs include the typical typing in letters/words for inputs will cause crashes or infinite loops.
+
+## Feedback
+
+So many ways to crash these programs as no **input validation** was implemented. Logic was wonky as well.
+
+***Overall Rating: 7/10***

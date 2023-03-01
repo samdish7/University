@@ -1,6 +1,6 @@
 # Lab 8 COSC 120; Sam Disharoon
 
-README for Lab 8, written in 2022 :grinning:
+*README written in 2022* :grinning:
 
 ## Binary
 
@@ -35,3 +35,9 @@ Attempts to demonstrate the different algorithms discovered in above programs...
 - Giving valid input gives a correctly sorted array, but searching for anything (in the array or not) results in coming back as not found. There is something wrong with the algorithm. I don't feel like going in depth to find out why. 
 - States the array is in ascending order... when it is really in descending order hehe.
 - Mean gives some trash number. This is most likely due to being passed by reference as well as being set to the return value of the function. Amusing either way
+
+## Feedback
+
+Again, *slightly* better than the previous lab, but *Student* is just embarassing. You can tell that I didn't understand what was going on and gave it a half-assed attempt to turn something in. The other three programs work ok though. 
+
+***Overall Rating 6/10***

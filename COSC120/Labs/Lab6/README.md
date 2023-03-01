@@ -1,6 +1,6 @@
 # Lab 6 COSC 120; Sam Disharoon
 
-README for Lab 2, written in 2021 :grinning:
+*README written in 2021* :grinning:
 
 ## Bill
 
@@ -15,7 +15,7 @@ This program introduces file I/O. It will read in the data from the file **trans
 This program asks the user if they are part of a dental plan and allows them to input the service charge.... that's literally it :poop:
 
 ### Bugs
-- Doesn't actually do anything with the input, so inputing ANYHTING other than 1 will not prompt you to input the service charge. 
+- Doesn't actually do anything with the input, so inputing ANYTHING other than 1 will not prompt you to input the service charge. 
 - Inputting anything for the service charge will not cause an infinite loop because the service charge isn't used other than to get an input. No other calculations were done on it.
 
 ## Money
@@ -28,7 +28,7 @@ This program demonstrates converting American dollars to Pesos, Yen, & Euros at 
 
 #### Bugs
 - No error checking (shocker)
-- Inputting negative numbers will run the program normally, and the outputs are as expected, they multiply the conversion factor by whatever is given
+- Entering negative numbers will run the program normally, and the outputs are as expected, they multiply the conversion factor by whatever is given
 	* Inputting a any combination of only letters will display all values as _0.00_; _Example ~>_ *r*, *rr*, & *rrr* all yield the given result
 	* Inputting a number(positive/negative) then a letter followed by any other combo will give the correct display for the first function, then all other values will default to _0.00_; _Example ~>_ *4r*, *4rr*, *4r4r* all yield  _$4.00 is converted to 2.80 euros and 50.64 pesos_, and then _0.00_ for all other functions
 
@@ -39,3 +39,9 @@ This program demostrates the differences between the global and local variables 
 ## Scope
 
 This program displays similarly to _money.cpp_ differences of scope for local/global variables. Again, where there are no user inputs, the program has no way for the user to try and crash it. Yet again, program seems to work fine even displaying messages when entering certain functions. Therefore I don't feel like looking at the code to see if it actually works like intended. 
+
+## Feedback
+
+*Bill* doesn't appear to work, *Dentist* is incomplete, *Money* appears to work but I don't feel like checking as I am just dissapointed with this entire lab. :poop:
+
+***Overall Rating: 3.5/10***

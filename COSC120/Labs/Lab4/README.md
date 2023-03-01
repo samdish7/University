@@ -1,6 +1,6 @@
 # Lab 4 COSC 120; Sam Disharoon
 
-README for lab 4, written in 2021 :grinning:
+*README written in 2021* :grinning:
 
 ## Baseball
 
@@ -40,3 +40,8 @@ This program is supposed to allow the user to input 2 numbers, and then swap the
 - In addition to not working right, there is no input validation. Entering a letter as num1 will yield **You input the numbers as 0 and 32766**. 
 - Entering a number first and then a letter will result in **You input the numbers as num1 & 0**
 
+## Feedback
+
+Tons more bugs, but seems as if most programs appear to do what they are asked of them minus **input validation** (except *Proverb* which validates numbers) and the *Swap* program. 
+
+***Overall Rating 6.5/10***

@@ -1,6 +1,6 @@
 # Lab 12 COSC120; Sam Disharoon
 
-Lab 12 for COSC120, written in 2022 :grinning:
+*README written in 2022* :grinning:
 
 ## FloatArr
 
@@ -15,3 +15,9 @@ These programs demonstrate the use of basic classes! The file names are self exp
 - __Floatarr__ just needs to do better.
 - __Shapes__ is hardcoded, so there isn't much in the way of breaking the program. So kudos to past me. 
 - Both are commented well, so even more kudos to past me. :tada:
+
+## Feedback
+
+Significant improvement in quality of code regarding *Shapes*, but *FloatArr* is just bad. Kinda makes me think this wasn't past me's own work but no way to prove that. So meh :man_shrugging:
+
+***Overall Rating: 6/10***
