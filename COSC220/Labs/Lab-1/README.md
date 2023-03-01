@@ -27,7 +27,7 @@ I have removed the .odt lab sheet and formatted it below for all to see. *No mod
 |||dish@dish-VirtualBox:~/Documents/COSC220$ ls|
 |||a.out  arrays.cpp|
 
-### Feedback
+## Feedback
 
 The mean function appears to be called twice, however upon further inspection, they are not the same. They access the array elements differently, but the end-user wouldn't know that was happening as there is no indication of this.
 
