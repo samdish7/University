@@ -38,9 +38,9 @@ int main(){
 	std::cout<<"Let us peek onto the stack to see what is on top now...\n"<<strStack.peek()<<"\nThe stack now contains:\n";
 	strStack.print();
 	std::cout<<"\n\nPushing PayRoll objects into a stack of PayRolls...\n";
-	PayRoll pay={"Bob",4.50,40};
-	PayRoll pay2={"Sam",7.50,40};
-	PayRoll pay3={"YAAAAAAAA",2.32,40};
+	PayRoll pay("Bob",4.50,40);
+	PayRoll pay2("Sam",7.50,40);
+	PayRoll pay3("YAAAAAAAA",2.32,40);
 	MyStack<PayRoll> payStack;
 	payStack.push(pay);
 	payStack.push(pay2);
