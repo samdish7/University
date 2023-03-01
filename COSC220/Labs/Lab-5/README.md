@@ -10,7 +10,7 @@ Submitted report was:
 
 `Everything works with an exception of the Copy CTOR and the Assignment operator. It does not print in reverse because you never told us to push back what we pop out. If we did re push them, the list would print out in reverse order. `
 
-I apparently had a quarrel with Dr. Anderson about the *reverse order* part of the assignment. :ROFL:
+I apparently had a quarrel with Dr. Anderson about the *reverse order* part of the assignment. :rofl:
 
 ### Bugs/Improvements
 
