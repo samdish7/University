@@ -15,7 +15,7 @@ I have removed the .odt lab sheet and formatted it below for all to see. *No mod
 
 |OutPut|Output 2|Scrolling through the terminal|
 |------|--------|------------------------------|
-||dish@dish-VirtualBox:~/Documents/COSC220$ ls|
+|||dish@dish-VirtualBox:~/Documents/COSC220$ ls|
 |How many numbers would you like?|How many numbers would you like?|a.out  arrays.cpp|
 |2|5|dish@dish-VirtualBox:~/Documents/COSC220$ cd ..|
 |Enter a number: 4|Enter a number: 82|dish@dish-VirtualBox:~/Documents$ cd ..|
@@ -25,19 +25,6 @@ I have removed the .odt lab sheet and formatted it below for all to see. *No mod
 ||Enter a number: 768|dish@dish-VirtualBox:~/Documents$ ls|
 ||The mean of your numbers is: 174.4|a.out  COSC220  file.cpp  Text.cpp|
 ||The mean of your numbers is: 174.4|dish@dish-VirtualBox:~/Documents$ cd COSC220|
-||dish@dish-VirtualBox:~/Documents/COSC220$ ls|
-||a.out  arrays.cpp|
-
-dish@dish-VirtualBox:~/Documents/COSC220$ ls
-a.out  arrays.cpp
-dish@dish-VirtualBox:~/Documents/COSC220$ cd ..
-dish@dish-VirtualBox:~/Documents$ cd ..
-dish@dish-VirtualBox:~$ ls
-Desktop  Documents  Downloads  Music  Pictures  Public  Templates  Videos
-dish@dish-VirtualBox:~$ cd Documents
-dish@dish-VirtualBox:~/Documents$ ls
-a.out  COSC220  file.cpp  Text.cpp
-dish@dish-VirtualBox:~/Documents$ cd COSC220
-dish@dish-VirtualBox:~/Documents/COSC220$ ls
-a.out  arrays.cpp
+|||dish@dish-VirtualBox:~/Documents/COSC220$ ls|
+|||a.out  arrays.cpp|
 
