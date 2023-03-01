@@ -12,7 +12,7 @@ Year ~> Spring 2019
 
 ## Overview
 
-Learning about various more advanced topics in computer science.  Algorithms such as linked lists, stacks, queues, and the fundamental sorting algorithms are all used thoughout this course. Classes and templates are also introduced and used in great detail.
+Learning about various more advanced topics in computer science.  Algorithms such as linked lists, stacks, queues, and the fundamental sorting algorithms are all used thoughout this course. Classes and templates are also introduced and used in great detail. All programs in this class were created using a long-erased VM running some older version of Linux Mint.
 
 ### Fun Fact
 
